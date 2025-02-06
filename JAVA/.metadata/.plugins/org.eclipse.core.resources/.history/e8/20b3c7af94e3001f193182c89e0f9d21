@@ -1,0 +1,22 @@
+package orientacion_objetos_EjemploClase;
+
+public class Ejemplo2GestionaEquipo {
+
+	public static void main(String[] args) {
+
+		Ejemplo2Personas p1 = new Ejemplo2Personas("Andrea","Perea","12345678C");
+		Ejemplo2Personas p2 = new Ejemplo2Personas("Luis","Martin","12375678D");
+		Ejemplo2Personas p3 = new Ejemplo2Personas("Marta","Perez","12345678A");
+		Ejemplo2Personas p4 = new Ejemplo2Personas("Sebastián","Rodríguez","12345678B");
+
+		Ejemplo2Personas[] personas1 = {p1,p2};	
+		Ejemplo2Personas[] personas2 = {p3,p4};	
+		int [] puntuaciones1 = {7,14,22};
+		int [] puntuaciones2 = {40,12,3};
+
+		Ejemplo2PersonasEquipo equipo1 = new Ejemplo2PersonasEquipo("Equipo1",puntuaciones1,personas1);		
+		Ejemplo2PersonasEquipo equipo2 = new Ejemplo2PersonasEquipo("Equipo2",puntuaciones2,personas2);		
+	
+	}
+
+}

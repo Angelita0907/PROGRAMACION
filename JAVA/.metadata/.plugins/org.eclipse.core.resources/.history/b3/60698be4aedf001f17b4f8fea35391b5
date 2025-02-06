@@ -1,0 +1,20 @@
+package objetos_beletin2_Ejercicio2;
+
+public class GestionaNotas {
+
+	public static void main(String[] args) {
+		
+		Alumnos lucia = new Alumnos("Lucia","lucia@gmail.com");
+		// programacion 5,7,7
+		Notas notaprogLucia = new Notas("Programación",6,7,8);
+		// base de datos 6,6,7
+		Notas notaBBDDLucia = new Notas("Base De Datos",9,4,7);
+		//Asignamos las notas (variables) al atributo del objeto notas
+		lucia.notaP = notaprogLucia;
+		lucia.notaBD = notaBBDDLucia;
+		
+		System.out.println(lucia);
+		
+	}
+
+}

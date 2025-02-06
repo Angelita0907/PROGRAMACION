@@ -1,0 +1,24 @@
+package orientacion_objetos_EjemploClase;
+
+import java.util.Arrays;
+
+public class Equipo {
+
+	String nombreEquipo;
+	int [] puntuaciones;
+	Personas [] personas;
+	public Equipo(String nombreEquipo, int[] puntuaciones, Personas[] personas) {
+		super();
+		this.nombreEquipo = nombreEquipo;
+		this.puntuaciones = puntuaciones;
+		this.personas = personas;
+	}
+	@Override
+	public String toString() {
+		return "Ejemplo2PersonasEquipo [nombreEquipo=" + nombreEquipo + ", puntuaciones="
+				+ Arrays.toString(puntuaciones) + ", personas=" + Arrays.toString(personas) + "]";
+	}
+
+	
+	
+}

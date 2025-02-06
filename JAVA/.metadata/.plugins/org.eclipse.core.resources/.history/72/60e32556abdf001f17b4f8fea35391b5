@@ -1,0 +1,12 @@
+package objetos_beletin2_Ejercicio2;
+
+public class GestionaNotas {
+
+	public static void main(String[] args) {
+		
+		Alumnos lucia = new Alumnos("Lucia","lucia@gmail.com");
+		// programacion 5,7,7
+		// base de datos 6,6,7
+	}
+
+}

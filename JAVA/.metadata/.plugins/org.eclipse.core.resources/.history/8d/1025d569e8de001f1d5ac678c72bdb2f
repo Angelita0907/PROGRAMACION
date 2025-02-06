@@ -1,0 +1,10 @@
+package objetos_beletin2_Ejercicio2;
+
+public class GestionaNotas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

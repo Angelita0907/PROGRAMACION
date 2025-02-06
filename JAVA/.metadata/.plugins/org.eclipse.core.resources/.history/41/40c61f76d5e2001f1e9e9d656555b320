@@ -1,0 +1,49 @@
+package objetos_boletin2_Ejercicio4;
+
+public class Cubo {
+
+	/*
+	 * lados:int litrosContiene: float; capacidadMax:float;
+	 * 
+	 * Metodos()float calculaVolumen()float vaciar(float litrosSacar):boolean
+	 * rellenar(float litrosMeter):boolean
+	 */
+
+	int lados;
+	float listrosContiene;
+	float capacidadMax;
+
+	public Cubo(int lados, float listrosContiene) {
+		super();
+		this.lados = lados;
+		this.listrosContiene = listrosContiene;
+		this.capacidadMax = calculaVolumen();
+	}
+
+	float calculaArea() {
+		float area = 6 * (lados * lados);
+		return area;
+	}
+
+	float calculaVolumen() {
+		float volumen = lados * lados * lados;
+		return volumen;
+	}
+
+	boolean vaciar(float listrosSacar) {
+		boolean vacio = false;
+
+		return vacio;
+	}
+
+	boolean rellenar(float litrosMeter) {
+		return false;
+
+	}
+
+	@Override
+	public String toString() {
+		return "Cubo lados: " + lados + ", listrosContiene: " + listrosContiene + ", capacidadMax: " + capacidadMax;
+	}
+
+}

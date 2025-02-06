@@ -1,0 +1,46 @@
+package objetos_boletin3_Ejercicio2;
+
+import java.util.Arrays;
+
+public class Partida {
+	
+	/*
+	 *String nombreJuego
+	 *Participantes [] participantes
+	 *String ganador
+	 *
+	 *Metodos:
+	 *String calculaJugadorGanador()
+	 * */
+	
+	String nombreJuego;
+	Participante [] participantes;
+	Participante [] ganador;
+	
+	
+	
+	public Partida(String nombreJuego, Participante[] participantes) {
+		super();
+		this.nombreJuego = nombreJuego;
+		this.participantes = participantes;
+	}
+
+	
+
+	@Override
+	public String toString() {
+		return "Partida nombreJuego: " + nombreJuego + ", participantes: " + Arrays.toString(participantes)
+				+ ", ganador: " + Arrays.toString(ganador);
+	}
+
+	Participante calculaJugadorGanador()
+	{
+		return null;
+	}
+
+	private void imprimeGanador() 
+	{
+		
+	}
+	
+}

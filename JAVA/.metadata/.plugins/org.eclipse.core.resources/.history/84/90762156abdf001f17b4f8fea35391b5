@@ -1,0 +1,43 @@
+package objetos_beletin2_Ejercicio2;
+
+public class Notas {
+
+	/*
+	 * nombre: String
+	 * primerT: int
+	 * segundoT: int
+	 * terceroT: int
+	 * 
+	 * Método:
+	 * + calculaMedia():float
+	 * [ calculaTrimestreAprobado(): int
+	 * toString():String
+	 * Constructor
+	 * */
+	
+	String nombre;
+	int primerT;
+	int segundoT;
+	int tercerT;
+	
+	public Notas(String nombre, int primerT, int segundoT, int tercerT) {
+		super();
+		this.nombre = nombre;
+		this.primerT = primerT;
+		this.segundoT = segundoT;
+		this.tercerT = tercerT;
+	}
+	public Notas() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Notas nombre=" + nombre + ", primerT=" + primerT + ", segundoT=" + segundoT + ", tercerT=" + tercerT;
+	}
+	
+	
+	
+	
+	
+}

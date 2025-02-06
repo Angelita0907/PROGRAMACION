@@ -1,0 +1,10 @@
+package objetos_boletin2_Ejercicio2;
+
+public class GestionaGatos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

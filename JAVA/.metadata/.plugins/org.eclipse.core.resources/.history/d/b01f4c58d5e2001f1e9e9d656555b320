@@ -1,0 +1,17 @@
+package objetos_boletin3_Ejercicio1;
+
+public class Vehiculo {
+	
+	/*
+	 * String marca
+	 * String modelo
+	 * int año
+	 * String tipo_Combustible
+	 * float tanque_Capacidad
+	 * 
+	 * Métodos:
+	 * float calculaConsumo(float numKm)
+	 * boolean necesitaCombustible(float tanque_Capacidad)
+	 * */
+
+}

@@ -1,0 +1,28 @@
+package objetos_boletin3_Ejercicio2;
+
+public class Participantes {
+	
+	/*
+	 * String nick
+	 * String nombre
+	 * int edad
+	 * int puntuacion
+	 * */
+
+	String nick;
+	String nombre;
+	int edad;
+	int puntuacion;
+	public Participantes(String nick, String nombre, int edad, int puntuacion) {
+		super();
+		this.nick = nick;
+		this.nombre = nombre;
+		this.edad = edad;
+		this.puntuacion = puntuacion;
+	}
+	@Override
+	public String toString() {
+		return "Participantes nick: " + nick + ", nombre: " + nombre + ", edad: " + edad + ", puntuacion: " + puntuacion;
+	}
+	
+}
