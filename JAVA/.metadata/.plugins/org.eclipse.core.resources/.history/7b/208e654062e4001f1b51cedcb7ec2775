@@ -17,7 +17,6 @@ public class GestionaTorneo {
 		
 		juego1.imprimeGanador();
 
-		//prueba cambios git
 	}
 
 }
