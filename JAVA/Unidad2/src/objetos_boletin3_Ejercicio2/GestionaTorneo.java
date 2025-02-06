@@ -16,8 +16,6 @@ public class GestionaTorneo {
 		Partida juego3 = new Partida("Carcassone",jugadores);
 		
 		juego1.imprimeGanador();
-
-		//prueba cambios git
 	}
 
 }

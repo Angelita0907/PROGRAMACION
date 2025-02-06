@@ -9,10 +9,10 @@ public class Participante {
 	 * int puntuacion
 	 * */
 
-	String nick;
-	String nombre;
-	int edad;
-	int puntuacion;
+	private String nick;
+	private String nombre;
+	private int edad;
+	private int puntuacion;
 	public Participante(String nick, String nombre, int edad, int puntuacion) {
 		super();
 		this.nick = nick;
@@ -24,5 +24,33 @@ public class Participante {
 	public String toString() {
 		return "Participantes nick: " + nick + ", nombre: " + nombre + ", edad: " + edad + ", puntuacion: " + puntuacion;
 	}
+	
+
+	public String getNick() {
+		return nick;
+	}
+	public void setNick(String nick) {
+		this.nick = nick;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	public int getPuntuacion() {
+		return puntuacion;
+	}
+	public void setPuntuacion(int puntuacion) {
+		this.puntuacion = puntuacion;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
 	
 }
