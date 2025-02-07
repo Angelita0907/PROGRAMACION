@@ -1,0 +1,17 @@
+package objetos_boletin3_Ejercicio3;
+
+import java.time.LocalDate;
+
+public class GestionCuentas {
+
+	public static void main(String[] args) {
+		
+		Persona titular = new Persona("98765432A","Pedro","Pérez",LocalDate.of(2003, 9, 7));
+		
+		CuentaBancaria cuentaBanco = new CuentaBancaria(0.0, "ES0987532196452879612354", titular);
+
+		
+		
+	}
+
+}

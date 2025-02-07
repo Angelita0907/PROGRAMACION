@@ -1,0 +1,10 @@
+package objetos_boletin3_Ejercicio3;
+
+public class GestionCuentas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
