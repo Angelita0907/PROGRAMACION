@@ -1,6 +1,6 @@
-package objetos_boletin3_Ejercicio1;
+package entornos;
 
-public class GestionaVehiculos {
+public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
