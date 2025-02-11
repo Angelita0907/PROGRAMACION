@@ -2,16 +2,14 @@ package herencias_Ejercicio1;
 
 public class Vehiculo {
 
-    private String dueno;
-    private int numPuertas;
-    private int numRuedas;
-    private int numPasajeros;  // Este atributo es común en los vehículos
+    protected String dueno;
+    protected int numPuertas;
+    protected int numRuedas;
 
-    public Vehiculo(String dueno, int numPuertas, int numRuedas, int numPasajeros) {
+    public Vehiculo(String dueno, int numPuertas, int numRuedas) {
         this.dueno = dueno;
         this.numPuertas = numPuertas;
         this.numRuedas = numRuedas;
-        this.numPasajeros = numPasajeros;
     }
 
     public String getDueno() {
@@ -38,16 +36,8 @@ public class Vehiculo {
         this.numRuedas = numRuedas;
     }
 
-    public int getNumPasajeros() {
-        return numPasajeros;
-    }
-
-    public void setNumPasajeros(int numPasajeros) {
-        this.numPasajeros = numPasajeros;
-    }
-
     @Override
     public String toString() {
-        return "Vehiculo [dueno=" + dueno + ", numPuertas=" + numPuertas + ", numRuedas=" + numRuedas + ", numPasajeros=" + numPasajeros + "]";
+        return "Vehiculo [dueno=" + dueno + ", numPuertas=" + numPuertas + ", numRuedas=" + numRuedas + ", numPasajeros="  + "]";
     }
 }

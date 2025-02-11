@@ -1,0 +1,23 @@
+package herencias_EjemploClase;
+
+import java.time.LocalDate;
+
+public class ProfesorInterino {
+
+	private LocalDate fechaFindeContrato;
+
+	public ProfesorInterino(LocalDate fechaFindeContrato) {
+		super();
+		this.fechaFindeContrato = fechaFindeContrato;
+	}
+
+	protected LocalDate getFechaFindeContrato() {
+		return fechaFindeContrato;
+	}
+
+	protected void setFechaFindeContrato(LocalDate fechaFindeContrato) {
+		this.fechaFindeContrato = fechaFindeContrato;
+	}
+	
+	
+}

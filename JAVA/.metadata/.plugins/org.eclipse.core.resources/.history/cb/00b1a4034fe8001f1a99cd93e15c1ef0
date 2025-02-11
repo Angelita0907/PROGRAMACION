@@ -1,0 +1,20 @@
+package herencias_Ejercicio1;
+
+public class GestionaVehiculo {
+
+	public static void main(String[] args) {
+		Vehiculo coche1 = new Automovil("Manuel", 5, 4,"A");
+		Vehiculo coche2 = new Automovil("Pedro", 5, 4,"B");
+		Vehiculo camion1 = new Camion("Eva", 5, 4, "Eco");
+
+
+		boolean esVehiculo = coche1 instanceof Vehiculo;
+		System.out.println("Es vehiculo?"+esVehiculo);
+		
+		boolean esCoche = coche2 instanceof Vehiculo;
+		System.out.println("Es vehiculo?"+esVehiculo);
+
+		//System.out.println("Es Camión?"+(coche1 instanceof Camion));
+	}
+
+}

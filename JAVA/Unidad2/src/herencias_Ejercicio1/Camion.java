@@ -2,16 +2,18 @@ package herencias_Ejercicio1;
 
 public class Camion extends Vehiculo {
 
-    private int tonelajeKilos;
+	private int tonelajeKilos;
+	private int numPasajeros;
     private int numEjes;
 
-    public Camion(String dueno, int numPuertas, int numRuedas, int numPasajeros, int tonelajeKilos, int numEjes) {
-        super(dueno, numPuertas, numRuedas, numPasajeros); // Llamamos al constructor de la clase base
-        this.tonelajeKilos = tonelajeKilos;
-        this.numEjes = numEjes;
-    }
+    public Camion(String dueno, int numPuertas, int numRuedas, int tonelajeKilos, int numPasajeros, int numEjes) {
+		super(dueno, numPuertas, numRuedas);
+		this.tonelajeKilos = tonelajeKilos;
+		this.numPasajeros = numPasajeros;
+		this.numEjes = numEjes;
+	}
 
-    public int getTonelajeKilos() {
+	public int getTonelajeKilos() {
         return tonelajeKilos;
     }
 
@@ -27,9 +29,19 @@ public class Camion extends Vehiculo {
         this.numEjes = numEjes;
     }
 
-    @Override
-    public String toString() {
-        return "Camion [dueno=" + getDueno() + ", numPuertas=" + getNumPuertas() + ", numRuedas=" + getNumRuedas() +
-                ", numPasajeros=" + getNumPasajeros() + ", tonelajeKilos=" + tonelajeKilos + ", numEjes=" + numEjes + "]";
-    }
+	public int getNumPasajeros() {
+		return numPasajeros;
+	}
+
+	public void setNumPasajeros(int numPasajeros) {
+		this.numPasajeros = numPasajeros;
+	}
+
+	@Override
+	public String toString() {
+		return "Camion [tonelajeKilos=" + tonelajeKilos + ", numPasajeros=" + numPasajeros + ", numEjes=" + numEjes
+				+ ", dueno=" + dueno + ", numPuertas=" + numPuertas + ", numRuedas=" + numRuedas + "]";
+	}
+
+	
 }

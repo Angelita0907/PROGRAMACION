@@ -3,4 +3,10 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="objetos_boletin2_Ejercicio2.GestionaGatos"/>
     <fullyQualifiedTypeName name="objetos_boletin2_Ejercicio2.Gato"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.chrono.ChronoLocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.Persona"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,30 @@
+package herencias_EjemploClase;
+
+import java.time.LocalDate;
+
+public class GestionaProfesores {
+
+	public static void main(String[] args) {
+
+		ProfesorInterino interino1 = new ProfesorInterino("12345698A", "Pepe", 
+				"Perez", "inglés", LocalDate.now().plusMonths(6));
+		
+		Profesor interino2 = new ProfesorInterino("12345698B", "Pepa", 
+				"Perez", "historia", LocalDate.now().plusMonths(4));
+		
+		System.out.println(interino1.getFechaFindeContrato());
+		//hacemos un casting cambio de una clase a otra --> down casting de tipo padre a tipo hijo
+		ProfesorInterino profesor3 = (ProfesorInterino)interino2;
+		System.out.println(profesor3.getFechaFindeContrato());
+		
+		ProfesorTitular titular1 = new ProfesorTitular("45678912C", "Maria", 
+				"Mendez", "Filosofia", LocalDate.now().minusYears(1));
+		System.out.println(titular1.getFechaAdjudicacionPlaza());
+		
+		Profesor titular2 = new ProfesorTitular("45678912D", "Andrés", 
+				"Carmona", "Matemáticas", LocalDate.now().minusYears(10));
+		ProfesorTitular profesor4 = (ProfesorTitular) titular2;
+		System.out.println(profesor4.getFechaAdjudicacionPlaza());
+	}
+
+}

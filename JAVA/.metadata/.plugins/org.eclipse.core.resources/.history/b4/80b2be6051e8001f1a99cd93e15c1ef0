@@ -1,0 +1,32 @@
+package herencias_EjemploClase;
+
+public class Profesor extends Persona {
+	
+	protected String asignatura;
+	protected String instituto;
+	
+	public Profesor(String dni, String nombre, String apellidos, String asignatura, String instituto) {
+		super(dni, nombre, apellidos);
+		this.asignatura = asignatura;
+		this.instituto = instituto;
+	}
+
+	public String getAsignatura() {
+		return asignatura;
+	}
+
+	public void setAsignatura(String asignatura) {
+		this.asignatura = asignatura;
+	}
+
+	public String getInstituto() {
+		return instituto;
+	}
+
+	public void setInstituto(String instituto) {
+		this.instituto = instituto;
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package herencias_Ejercicio1;
+
+public class GestionaVehiculo {
+
+	public static void main(String[] args) {
+		Vehiculo coche1 = new Automovil("Manuel", 5, 4,"A");
+		Vehiculo camion1 = new Camion("Eva", 5, 4, "Eco");
+
+
+	}
+
+}
