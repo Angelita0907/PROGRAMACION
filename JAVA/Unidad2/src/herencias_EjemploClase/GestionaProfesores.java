@@ -34,6 +34,8 @@ public class GestionaProfesores {
 		
 		ProfesorTitular t1 = (ProfesorTitular) interino2;
 		
+		
+		
 	}
 
 }
