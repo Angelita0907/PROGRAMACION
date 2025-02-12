@@ -1,10 +1,12 @@
 package herencias_EjemploClase;
 
+import java.util.Objects;
+
 public class Persona {
 
-	protected String dni;
-	protected String nombre;
-	protected String apellidos;
+	private String dni;
+	private String nombre;
+	private String apellidos;
 	
 	public Persona(String dni, String nombre, String apellidos) {
 		super();
@@ -40,6 +42,24 @@ public class Persona {
 	@Override
 	public String toString() {
 		return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(apellidos, dni, nombre);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Persona other = (Persona) obj;
+		return Objects.equals(apellidos, other.apellidos) && Objects.equals(dni, other.dni)
+				&& Objects.equals(nombre, other.nombre);
 	}
 	
 

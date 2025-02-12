@@ -1,0 +1,14 @@
+package ejemplo_HerenciaClase;
+
+public class GestionaPersona {
+
+	public static void main(String[] args) {
+		Persona p = new Persona("Pepe", "Perez", 22, 500);
+		Persona  p2 = new Entrenador("Pepa", "Marin", 24, 550);
+
+		System.out.println(p2.toString());
+		
+		
+	}
+
+}
