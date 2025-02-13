@@ -9,8 +9,7 @@ public class GestionaJuego {
 		Arquero a1 = new Arquero("Menganito", 13, 90);
 		Caballero c1 = new Caballero("Juan", 15, 200);
 		
-		boolean villanoAtacado = v1.esAtacado(c1);
-		System.out.println(villanoAtacado);
+		v1.esAtacado(c1);
 		
 	}
 

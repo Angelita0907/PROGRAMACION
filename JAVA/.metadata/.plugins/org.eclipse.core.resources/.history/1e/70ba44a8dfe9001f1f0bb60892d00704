@@ -78,7 +78,7 @@ public class Personaje {
 	}
 	
 	// sobrecargamos el método para añadirle la distancia
-	boolean esAtacado(Personaje atacante, int distancia)
+	boolean esAtacado(Personaje atacado, int distancia)
 	{
 		return true;
 	}

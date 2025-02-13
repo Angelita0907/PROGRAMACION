@@ -26,16 +26,8 @@ public class Arquero extends Personaje {
 		if (atacante instanceof Mago) {
 			atacado = true;
 		}
-		else if (atacante instanceof Caballero && distancia < 50)
-		{
-			atacado = true;
-		}
 		
-		else
-		{
-			atacado = false;
-		}
-		return atacado;
+		return true;
 	}
 	
 }

@@ -11,9 +11,4 @@ public class Mago extends Personaje {
 	{
 		return false;
 	}
-	
-	boolean esAtacado(Personaje atacado, int distancia)
-	{
-		return false;
-	}
 }

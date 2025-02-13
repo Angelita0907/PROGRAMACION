@@ -26,19 +26,4 @@ public class Caballero extends Personaje {
 		return atacado;
 	}
 
-	
-	boolean esAtacado(Personaje atacante, int distancia) {
-		boolean atacado;
-		if (atacante instanceof Mago) {
-			atacado = true;
-		} else if (atacante instanceof Arquero && distancia < 100) {
-			atacado = true;
-		}
-
-		else {
-			atacado = false;
-		}
-		return atacado;
-	}
-
 }

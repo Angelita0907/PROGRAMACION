@@ -66,21 +66,7 @@ public class Personaje {
 		return Objects.equals(arma, other.arma) && nivel == other.nivel && Objects.equals(nombre, other.nombre)
 				&& puntosVida == other.puntosVida;
 	}
-
-	@Override
-	public String toString() {
-		return "Personaje nombre=" + nombre + ", nivel=" + nivel + ", puntosVida=" + puntosVida + ", arma=" + arma;
-	}
 	
-	boolean esAtacado(Personaje atacante)
-	{
-		return true;
-	}
 	
-	// sobrecargamos el método para añadirle la distancia
-	boolean esAtacado(Personaje atacante, int distancia)
-	{
-		return true;
-	}
 	
 }

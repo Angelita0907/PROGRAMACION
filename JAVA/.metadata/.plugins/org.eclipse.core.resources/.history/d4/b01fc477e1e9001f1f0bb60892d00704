@@ -26,7 +26,6 @@ public class Caballero extends Personaje {
 		return atacado;
 	}
 
-	
 	boolean esAtacado(Personaje atacante, int distancia) {
 		boolean atacado;
 		if (atacante instanceof Mago) {
