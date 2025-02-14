@@ -1,0 +1,45 @@
+package simulacroExamen_SinHerencia;
+
+public class Sensor {
+	
+	private double distancia;
+	private double velocidad;
+	
+	public Sensor(double distancia, double velocidad) {
+		super();
+		this.distancia = distancia;
+		this.velocidad = velocidad;
+	}
+
+	protected double getDistancia() {
+		return distancia;
+	}
+
+	protected void setDistancia(double distancia) {
+		this.distancia = distancia;
+	}
+
+	protected double getVelocidad() {
+		return velocidad;
+	}
+
+	protected void setVelocidad(double velocidad) {
+		this.velocidad = velocidad;
+	}
+	
+	@Override
+	public String toString() {
+		return "Sensores [distancia=" + distancia + ", velocidad=" + velocidad + "]";
+	}
+
+	boolean alertaObstaculo()
+	{
+		return false;
+	}
+	
+	boolean alertaVelocidad()
+	{
+		return false;
+	}
+
+}

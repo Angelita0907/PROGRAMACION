@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Persona"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Entrenador"/>
+    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Personaje"/>
+    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Villano"/>
+    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Mago"/>
+    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Arquero"/>
+    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Caballero"/>
 </qualifiedTypeNameHistroy>

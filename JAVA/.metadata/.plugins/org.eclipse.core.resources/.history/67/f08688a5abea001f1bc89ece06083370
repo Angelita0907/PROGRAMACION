@@ -1,0 +1,46 @@
+package simulacroExamen_SinHerencia;
+
+import java.util.Objects;
+
+public class Conductores {
+	private String nombre;
+	private int anios;
+	
+	public Conductores(String nombre, int anios) {
+		super();
+		this.nombre = nombre;
+		this.anios = anios;
+	}
+	protected String getNombre() {
+		return nombre;
+	}
+	protected void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	protected int getAnios() {
+		return anios;
+	}
+	protected void setAnios(int anios) {
+		this.anios = anios;
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(anios, nombre);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Conductor other = (Conductor) obj;
+		return anios == other.anios && Objects.equals(nombre, other.nombre);
+	}
+
+	
+
+}

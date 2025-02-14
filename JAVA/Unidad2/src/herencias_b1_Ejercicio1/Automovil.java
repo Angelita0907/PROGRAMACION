@@ -2,19 +2,27 @@ package herencias_b1_Ejercicio1;
 
 public class Automovil extends Vehiculo {
 
-    public Automovil(String dueno, int numPuertas, int numRuedas, String calificacionEcologica) {
+    public Automovil(String dueno, int numPuertas, int numRuedas, CalificacionEco calificacionEcologica) {
 		super(dueno, numPuertas, numRuedas);
-		this.calificacionEcologica = calificacionEcologica;
+		setCalificacionEcologica(calificacionEcologica);
     }
 
-	private String calificacionEcologica;
+	private CalificacionEco calificacionEcologica = CalificacionEco.ECO;
+	
+	protected enum CalificacionEco{
+		ECO, O, B, C; 
+	}
 
-    public String getCalificacionEcologica() {
+    public CalificacionEco getCalificacionEcologica() {
         return calificacionEcologica;
     }
 
-    public void setCalificacionEcologica(String calificacionEcologica) {
-        this.calificacionEcologica = calificacionEcologica;
+    public void setCalificacionEcologica(CalificacionEco calificacionEcologica) {
+    	if(calificacionEcologica.equals(CalificacionEco.ECO) || calificacionEcologica.equals(CalificacionEco.O) 
+    	|| calificacionEcologica.equals(CalificacionEco.B) || calificacionEcologica.equals(CalificacionEco.C)) 
+    	{
+    		this.calificacionEcologica = calificacionEcologica;
+    	}
     }
 
     @Override
