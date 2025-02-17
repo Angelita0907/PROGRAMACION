@@ -19,4 +19,7 @@
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Mago"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Arquero"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Caballero"/>
+    <fullyQualifiedTypeName name="ejemplo_Enum.DiadelaSemana"/>
+    <fullyQualifiedTypeName name="herencias_b1_Ejercicio1.Automovil.CalificacionEco"/>
+    <fullyQualifiedTypeName name="simulacroExamen_SinHerencia.Conductor"/>
 </qualifiedTypeNameHistroy>
