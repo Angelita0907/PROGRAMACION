@@ -1,0 +1,108 @@
+package PrimerApellidoSimulacionEmpleados;
+
+import java.util.Objects;
+
+public class Empleado {
+	
+	private String nombre;
+	private String dni;
+	private int salarioBase;
+	
+	public Empleado(String nombre, String dni, int salarioBase) {
+		super();
+		this.nombre = nombre;
+		this.dni = dni;
+		this.salarioBase = salarioBase;
+	}
+
+	protected String getNombre() {
+		return nombre;
+	}
+
+	protected void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	protected String getDni() {
+		return dni;
+	}
+
+	protected void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	protected int getSalarioBase() {
+		return salarioBase;
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(dni, nombre, salarioBase);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Empleado other = (Empleado) obj;
+		return Objects.equals(dni, other.dni) && Objects.equals(nombre, other.nombre)
+				&& salarioBase == other.salarioBase;
+	}
+
+	protected void setSalarioBase(int salarioBase) {
+		this.salarioBase = salarioBase;
+	}
+
+	protected void validarSalario()
+	{
+		if (salarioBase < 0)
+		{
+			System.out.println("Error salario negativo/incorrecto");
+			salarioBase = 1134;
+		}
+	}
+	
+	protected boolean validarEmpleadoDistintos(Empleado e1,Empleado e2)
+	{
+		boolean distintos = true;
+		
+		if (e1.equals(e2))
+		{
+			distintos = false;
+			System.out.println("Empleados distintos");
+		}
+		
+		else if (e1.equals(e1))
+		{
+			distintos = false;
+			System.out.println("Mismo empleado");
+		}
+		
+		return distintos;
+	}
+	
+	protected boolean validarEmpleadoDni(Empleado e1/*dni*/, Empleado e2/*dni*/)
+	{
+		boolean mismoDni = false;
+		
+		if(e1.equals(e2))
+		{
+			mismoDni = true;
+			System.out.println("Mismo Dni, son el mismo");
+		}
+		
+		return mismoDni;
+	}
+	
+	protected int calcularSalario()
+	{
+		int salario = 0;
+		
+		return salario;
+	}
+	
+}

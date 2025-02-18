@@ -1,0 +1,22 @@
+package PrimerApellidoSimulacionEmpleados;
+
+public class Administrativo extends Empleado{
+
+	private int extraProductividad;
+
+	public Administrativo(String nombre, String dni, int salarioBase, int extraProductividad) {
+		super(nombre, dni, salarioBase);
+		this.extraProductividad = extraProductividad;
+	}
+
+	protected int getExtraProductividad() {
+		return extraProductividad;
+	}
+
+	protected void setExtraProductividad(int extraProductividad) {
+		this.extraProductividad = extraProductividad;
+	}
+	
+	
+	
+}

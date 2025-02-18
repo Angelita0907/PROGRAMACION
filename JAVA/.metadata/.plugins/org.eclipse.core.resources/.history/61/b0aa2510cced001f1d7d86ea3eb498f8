@@ -1,0 +1,7 @@
+package PrimerApellidoSimulacionEmpleados;
+
+public class Administrativo extends Empleado{
+
+	
+	
+}

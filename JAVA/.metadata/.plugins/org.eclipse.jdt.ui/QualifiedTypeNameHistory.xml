@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="ejemplo_Enum.DiadelaSemana"/>
     <fullyQualifiedTypeName name="herencias_b1_Ejercicio1.Automovil.CalificacionEco"/>
     <fullyQualifiedTypeName name="simulacroExamen_SinHerencia.Conductor"/>
+    <fullyQualifiedTypeName name="PrimerApellidoSimulacionEmpleados.Administrativo"/>
+    <fullyQualifiedTypeName name="PrimerApellidoSimulacionEmpleados.Directivo"/>
 </qualifiedTypeNameHistroy>

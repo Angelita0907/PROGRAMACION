@@ -1,0 +1,12 @@
+package PrimerApellidoSimulacionEmpleados;
+
+public class GestionaEmpleado {
+
+	public static void main(String[] args) {
+		
+		Administrativo admin1 = new Administrativo("Carlos","12345678A",0/*(Falta) cambiar en empleado por metodo calculaSalario*/ ,40);
+		Directivo direc1 = new Directivo(, null, /*(Falta) cambiar en empleado por metodo calculaSalario*/, 15);
+
+	}
+
+}
