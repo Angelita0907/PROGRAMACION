@@ -8,13 +8,15 @@ public class Equipo {
 	private String mac;
 	private String sistemaOp;
 	private int numIncidentes = 0;
-	
-	public Equipo(String nombre, String mac, String sistemaOp, int numIncidentes) {
+	private Usuario usuario;
+
+	public Equipo(String nombre, String mac, String sistemaOp, int numIncidentes, Usuario usuario) {
 		super();
 		this.nombre = nombre;
 		this.mac = mac;
 		this.sistemaOp = sistemaOp;
 		this.numIncidentes = numIncidentes;
+		this.usuario = usuario;
 	}
 
 	protected String getNombre() {
@@ -49,6 +51,14 @@ public class Equipo {
 		this.numIncidentes = numIncidentes;
 	}
 
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(mac, nombre, numIncidentes, sistemaOp);
@@ -68,8 +78,8 @@ public class Equipo {
 
 	@Override
 	public String toString() {
-		return "Equipo nombre=" + nombre + ", mac=" + mac + ", numIncidentes="
-				+ numIncidentes;
+		return "Equipo [nombre=" + nombre + ", mac=" + mac + ", sistemaOp=" + sistemaOp + ", numIncidentes="
+				+ numIncidentes + ", usuario=" + usuario.getNombre() + "]";
 	}
 	
 }

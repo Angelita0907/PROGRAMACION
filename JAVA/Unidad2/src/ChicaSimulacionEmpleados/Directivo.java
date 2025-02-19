@@ -2,7 +2,7 @@ package ChicaSimulacionEmpleados;
 
 import java.util.Objects;
 
-public class Directivo extends Empleado // no se extiende a ninguno mas acaba con él (falta poner) 
+public final class Directivo extends Empleado // no se extiende a ninguno mas acaba con él (falta poner) 
 	{
 
 	private int bonificacionSalario;
@@ -46,6 +46,11 @@ public class Directivo extends Empleado // no se extiende a ninguno mas acaba co
 				+ getDni() + ", calcularSalario()=" + calcularSalario() + "]";
 	}
 
-	
+	@Override
+	public int calcularSalario () {
+	    int salarioañadir =  (getSalarioBase()*bonificacionSalario)/100;
+	    int salariototal= getSalarioBase()+salarioañadir;
+	    return salariototal;
+	}
 	
 }

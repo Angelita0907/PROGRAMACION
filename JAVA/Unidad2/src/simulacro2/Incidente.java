@@ -131,7 +131,7 @@ public class Incidente {
 
 	public void esUrgente() {
 		LocalDate hoy = LocalDate.now();
-		if (Criticidad.CRITICA != null) {
+		if (Criticidad.CRITICA != null ) {
 			System.out.println("Es urgente");
 		} else if (Criticidad.GRAVE != null && fechaCierre.plusDays(7).isAfter(hoy)) {
 			System.out.println("Es urgente");

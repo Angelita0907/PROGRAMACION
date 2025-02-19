@@ -40,7 +40,6 @@ public class Administrativo extends Empleado{
 	}
 
 	
-	
 	@Override
 	public String toString() {
 		return "Administrativo [extraProductividad=" + extraProductividad + ", getExtraProductividad()="
@@ -50,10 +49,10 @@ public class Administrativo extends Empleado{
 
 	@Override /*cambiamos metodo del padre para los hijos*/
 	protected int calcularSalario()
-	{
-		int salario = 0;
+	{	
+		int salarioAnadir = getSalarioBase()+extraProductividad;
 		
-		return salario;
+		return salarioAnadir;
 	}
 	
 }
