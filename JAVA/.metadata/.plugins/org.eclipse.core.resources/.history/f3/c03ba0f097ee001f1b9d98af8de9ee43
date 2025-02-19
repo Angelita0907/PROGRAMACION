@@ -1,0 +1,10 @@
+package simulacro2;
+
+public class Incidente {
+
+	private int id;
+	private String nombre;
+	private String descripcion;
+	private LocalDate fechaCierre;
+	
+}

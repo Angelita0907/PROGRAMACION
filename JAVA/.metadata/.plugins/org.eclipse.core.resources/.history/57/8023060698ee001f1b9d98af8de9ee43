@@ -1,0 +1,17 @@
+package simulacro2;
+
+import java.time.LocalDate;
+
+public class Incidente {
+
+	private int id;
+	private String nombre;
+	private String descripcion;
+	private LocalDate fechaCierre;
+	private Estado estado; 
+	
+}
+
+private enum Estado {
+	REGISTRADA,
+}

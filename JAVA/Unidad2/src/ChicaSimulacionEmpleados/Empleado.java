@@ -51,8 +51,7 @@ public class Empleado {
 		if (getClass() != obj.getClass())
 			return false;
 		Empleado other = (Empleado) obj;
-		return Objects.equals(dni, other.dni) && Objects.equals(nombre, other.nombre)
-				&& salarioBase == other.salarioBase;
+		return Objects.equals(dni, other.dni);
 	}
 
 	protected void setSalarioBase(int salarioBase) {
