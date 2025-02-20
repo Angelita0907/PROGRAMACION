@@ -1,0 +1,22 @@
+package gestionDeDispositivos;
+
+public class Telefono extends Dispositivo {
+
+	private int tieneTecladoFisico;
+
+	public Telefono(String nombre, String modelo, double precio, int tieneTecladoFisico) {
+		super(nombre, modelo, precio);
+		this.tieneTecladoFisico = tieneTecladoFisico;
+	}
+
+	protected int getTieneTecladoFisico() {
+		return tieneTecladoFisico;
+	}
+
+	protected void setTieneTecladoFisico(int tieneTecladoFisico) {
+		this.tieneTecladoFisico = tieneTecladoFisico;
+	}
+	
+	
+	
+}

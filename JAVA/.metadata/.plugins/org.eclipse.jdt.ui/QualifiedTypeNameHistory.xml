@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.Persona"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorInterino"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorTitular"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -19,9 +18,22 @@
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Mago"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Arquero"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Caballero"/>
-    <fullyQualifiedTypeName name="ejemplo_Enum.DiadelaSemana"/>
     <fullyQualifiedTypeName name="herencias_b1_Ejercicio1.Automovil.CalificacionEco"/>
     <fullyQualifiedTypeName name="simulacroExamen_SinHerencia.Conductor"/>
     <fullyQualifiedTypeName name="PrimerApellidoSimulacionEmpleados.Administrativo"/>
     <fullyQualifiedTypeName name="PrimerApellidoSimulacionEmpleados.Directivo"/>
+    <fullyQualifiedTypeName name="ejemplo_Enum.DiadelaSemana"/>
+    <fullyQualifiedTypeName name="simulacro2.Estado"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="simulacro2.Criticidad"/>
+    <fullyQualifiedTypeName name="simulacro2.Equipo"/>
+    <fullyQualifiedTypeName name="simulacro2.Incidente"/>
+    <fullyQualifiedTypeName name="gestionDeDispositivos.Laptop"/>
+    <fullyQualifiedTypeName name="gestionDeDispositivos.PCSobremesa"/>
+    <fullyQualifiedTypeName name="gestionDeDispositivos.Dispositivo"/>
+    <fullyQualifiedTypeName name="gestionDeDispositivos.Smartphone"/>
+    <fullyQualifiedTypeName name="yummyyummy.Dieta"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="yummyyummy.Menu"/>
+    <fullyQualifiedTypeName name="yummyyummy.Cliente"/>
 </qualifiedTypeNameHistroy>

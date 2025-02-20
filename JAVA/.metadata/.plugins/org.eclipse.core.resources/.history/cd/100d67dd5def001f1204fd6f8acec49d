@@ -1,0 +1,11 @@
+package gestionDeDispositivos;
+
+public class GestionDispositivos {
+
+	public static void main(String[] args) {
+		Smartphone smart1 = new Smartphone("S25", "Samsung", 1500, false, 3);
+		
+
+	}
+
+}

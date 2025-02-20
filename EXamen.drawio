@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+  <diagram name="Página-1" id="bGE75z2FjLiW5xBqkYTQ">
+    <mxGraphModel dx="712" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hrvidnhHaT_fySjnKq6c-1" value="Menú" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="280" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-2" value="- id: int&lt;div&gt;- nombre:String&lt;/div&gt;&lt;div&gt;- consumoCalorico: double&lt;/div&gt;&lt;div&gt;- precioVenta: int&lt;/div&gt;&lt;div&gt;- precioCoste: int&lt;/div&gt;&lt;div&gt;- tipoDieta: Dieta&lt;/div&gt;&lt;div&gt;- frutosSecos: boolean&lt;/div&gt;&lt;div&gt;- unidadesRepartidas: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-1">
+          <mxGeometry y="30" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-1">
+          <mxGeometry y="160" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-4" value="&lt;div&gt;+ Menu();&lt;/div&gt;+ enum Dieta();&lt;div&gt;+ get();&lt;/div&gt;&lt;div&gt;+ set();&lt;/div&gt;&lt;div&gt;+ equals&lt;/div&gt;&lt;div&gt;+ ToString&lt;/div&gt;&lt;div&gt;+ contieneCarn: void();&lt;/div&gt;&lt;div&gt;+ calcularPrecioMenuConPromocion(): double;&lt;/div&gt;&lt;div&gt;&lt;div&gt;- hayqueHacerPromosion: boolean&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-1">
+          <mxGeometry y="168" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-5" value="Clientes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="220" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-6" value="- dni: String&lt;div&gt;- nombre: String&lt;/div&gt;&lt;div&gt;- apellidos: String&lt;/div&gt;&lt;div&gt;- edad: int&lt;/div&gt;&lt;div&gt;- dieta: Menu&lt;/div&gt;&lt;div&gt;- vip: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-5">
+          <mxGeometry y="30" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-5">
+          <mxGeometry y="130" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-8" value="+ Clientes();&lt;div&gt;+ equals();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ toString;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;autosize=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-5">
+          <mxGeometry y="138" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-9" value="GestionaCatering" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-10" value="+ main();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hrvidnhHaT_fySjnKq6c-9">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hrvidnhHaT_fySjnKq6c-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="80" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
