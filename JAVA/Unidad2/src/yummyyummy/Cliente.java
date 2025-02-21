@@ -104,7 +104,6 @@ public class Cliente {
 			System.out.println("No tiene promocion");
 			promocion = false;
 		}
-
 		return promocion;
 	}
 

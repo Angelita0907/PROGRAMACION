@@ -6,7 +6,7 @@ public class GestionDispositivos {
 		Smartphone smart1 = new Smartphone("S25", "Samsung", 900, false, 3);
 		//llamar metodo toString
 		Laptop lap1 = new Laptop("Mac 11", "Ios", 1200, 16, 2.5);
-
+		System.out.println(lap1);
 		PCSobremesa pc1 = new PCSobremesa("SanpDragon", "NVidia", 2100, 32, true);
 
 

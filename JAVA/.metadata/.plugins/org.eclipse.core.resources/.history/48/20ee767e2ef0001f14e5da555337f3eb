@@ -1,0 +1,13 @@
+package ejemplo_Matches;
+
+public class Ejemplo1 {
+
+	public static void main(String[] args) {
+		String numeros = "1010";
+		String numeros2 = "1a10";
+		
+		System.out.println(numeros.matches("[0-9]"));
+		
+	}
+
+}
