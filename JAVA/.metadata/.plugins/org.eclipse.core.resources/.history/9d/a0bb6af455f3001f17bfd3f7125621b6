@@ -1,0 +1,29 @@
+package modelo;
+
+import java.time.LocalDate;
+
+public class CuentaBancaria {
+	
+	private double saldo;
+	private LocalDate fecha_apertura;
+	private int id;
+	private static int contador = 0;
+	private String IBAN;
+	private Cliente titular;
+	private Cliente autorizado = null;
+	
+	public CuentaBancaria(double saldo, LocalDate fecha_apertura, int id, String iBAN, Cliente titular,
+			Cliente autorizado) {
+		super();
+		this.saldo = saldo;
+		this.fecha_apertura = fecha_apertura;
+		this.id = contador+1;
+		this.IBAN = iBAN;
+		this.titular = titular;
+		this.autorizado = autorizado;
+		contador = contador+1;
+	}
+	
+	
+	
+}

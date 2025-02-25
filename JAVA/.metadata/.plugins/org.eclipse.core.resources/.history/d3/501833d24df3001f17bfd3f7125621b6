@@ -1,0 +1,31 @@
+package autoincrement;
+
+import java.util.Scanner;
+
+public class GestionaPersona {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		Persona p1 = new Persona("Pepe", 20);
+		System.out.println(p1);
+		Persona p2 = new Persona("Pepa", 18);		
+		System.out.println(p2);
+	
+		String dni = sc.nextLine();
+		
+		while(!dni.equals("fin")) {
+			System.out.println("Introduce un dni o pon fin: ");
+			dni = sc.nextLine();
+			if (dni.matches("\\d{8}[A-Za-z]{1}")) {
+
+			} else {
+				System.out.println("Error, dni no válido");
+			}
+		}
+		
+		
+	}
+
+}
