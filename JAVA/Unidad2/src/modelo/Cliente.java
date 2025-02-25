@@ -67,6 +67,11 @@ public class Cliente {
 				&& Objects.equals(nombre, other.nombre);
 	}
 
+	@Override
+	public String toString() {
+		return "Cliente [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + ", dni=" + dni + "]";
+	}
+
 	public static boolean validaSiDniValido(String dni) {
 		boolean valido = false;
 		if (dni.matches("\\d{8}[A-Za-z]{1}")) {

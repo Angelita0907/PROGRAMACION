@@ -13,7 +13,7 @@ public class CuentaBancaria {
 	private Cliente titular;
 	private Cliente autorizado = null;
 
-	public CuentaBancaria(double saldo, LocalDate fecha_apertura, int id, String iBAN, Cliente titular,
+	public CuentaBancaria(double saldo, LocalDate fecha_apertura, String iBAN, Cliente titular,
 			Cliente autorizado) {
 		super();
 		this.saldo = saldo;
@@ -99,6 +99,12 @@ public class CuentaBancaria {
 				&& Objects.equals(fecha_apertura, other.fecha_apertura) && id == other.id
 				&& Double.doubleToLongBits(saldo) == Double.doubleToLongBits(other.saldo)
 				&& Objects.equals(titular, other.titular);
+	}
+
+	@Override
+	public String toString() {
+		return "CuentaBancaria [saldo=" + saldo + ", fecha_apertura=" + fecha_apertura + ", id=" + id + ", IBAN=" + IBAN
+				+ ", titular=" + titular + ", autorizado=" + autorizado + "]";
 	}
 	
 	//esTitular
