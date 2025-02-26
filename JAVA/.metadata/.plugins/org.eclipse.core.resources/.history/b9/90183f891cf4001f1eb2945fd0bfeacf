@@ -1,0 +1,16 @@
+package modelo;
+
+public class CorreoElectronico {
+
+	public static boolean validaCorreo(String correo) {
+		boolean valido = false;
+		if (correo.matches("\\[A-Za-z_0-9]+@+[A-Za-z_0-9]+.[A-Za-z_0-9]")) {
+			System.out.println(valido = true);
+		}
+		else {
+			System.out.println(valido = false);
+		}
+		return valido;
+	}
+
+}

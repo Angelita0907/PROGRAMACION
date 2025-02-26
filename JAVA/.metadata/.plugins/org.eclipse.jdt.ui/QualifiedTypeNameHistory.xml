@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorInterino"/>
     <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorTitular"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Persona"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Entrenador"/>
@@ -24,7 +23,6 @@
     <fullyQualifiedTypeName name="PrimerApellidoSimulacionEmpleados.Directivo"/>
     <fullyQualifiedTypeName name="ejemplo_Enum.DiadelaSemana"/>
     <fullyQualifiedTypeName name="simulacro2.Estado"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="simulacro2.Criticidad"/>
     <fullyQualifiedTypeName name="simulacro2.Equipo"/>
     <fullyQualifiedTypeName name="simulacro2.Incidente"/>
@@ -36,4 +34,9 @@
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="yummyyummy.Menu"/>
     <fullyQualifiedTypeName name="yummyyummy.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="autoincrement.Persona"/>
+    <fullyQualifiedTypeName name="controlador.GestionaPersona"/>
+    <fullyQualifiedTypeName name="modelo.Circulo"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

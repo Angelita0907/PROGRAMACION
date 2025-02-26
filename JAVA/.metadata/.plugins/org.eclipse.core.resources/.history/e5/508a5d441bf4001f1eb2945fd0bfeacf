@@ -1,0 +1,43 @@
+package modelo;
+
+public class Conversor {
+	
+	private double dolar;
+	private double euro;
+	public final static double DOLARES = 1.05;
+	public final static double EURO = 0.96;
+	
+	public Conversor(double euro) {
+		super();
+		this.euro = euro;
+	}
+
+	protected double getEuro() {
+		return euro;
+	}
+
+	protected void setDolar(double dolar) {
+		this.dolar = dolar;
+	}
+
+	protected static double getDolar() {
+		return DOLARES;
+	}
+
+	@Override
+	public String toString() {
+		return "Conversor [euro=" + euro + "]";
+	}
+	static double calcularConversorDolar(double dolar)
+	{
+		double convertirDolar = dolar * DOLARES;
+		return convertirDolar;
+	}
+	
+	static double calcularConversorEuros(double euro)
+	{
+		double convertirEuros = euro * EURO;
+		return convertirEuros;
+	}
+	
+}

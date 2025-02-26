@@ -1,0 +1,14 @@
+package modelo;
+
+public class CorreoElectronico {
+
+	static boolean validaCorreo(String correo)
+	{
+		boolean valido = true;
+		
+		correo.matches("[A-Za-z]");
+		
+		return valido;
+	}
+	
+}
