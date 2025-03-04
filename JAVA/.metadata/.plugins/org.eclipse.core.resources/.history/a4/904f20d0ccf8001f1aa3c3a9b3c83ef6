@@ -1,0 +1,17 @@
+package modelo;
+
+public class Pez extends Animal {
+
+	@Override
+	public String getSonidoAnimal() {
+		return "glu glu";
+	}
+
+	@Override
+	public String getAlimento() {
+		return "algas";
+	}
+	
+	
+
+}

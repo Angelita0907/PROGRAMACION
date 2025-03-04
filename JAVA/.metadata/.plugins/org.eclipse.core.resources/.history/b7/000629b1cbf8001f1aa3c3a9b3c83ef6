@@ -1,0 +1,22 @@
+package controlador;
+
+import modelo.Animal;
+import modelo.Gato;
+import modelo.Perro;
+
+public class GestionaAnimales {
+
+	public static void main(String[] args) {
+		
+		Animal p1 = new Perro();
+		Animal g1  = new Gato();
+		
+		System.out.println(p1.getSonidoAnimal());
+		System.out.println(p1.getAlimento());
+		
+		System.out.println(g1.getSonidoAnimal());
+		System.out.println(g1.getAlimento());
+
+	}
+
+}

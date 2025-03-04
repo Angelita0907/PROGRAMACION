@@ -1,0 +1,11 @@
+package controlador;
+
+import modelo.Figura;
+import modelo.Cuadrado;
+import modelo.Triangulo;
+
+public class GestionaFigura {
+	
+
+
+}

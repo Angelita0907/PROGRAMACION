@@ -1,0 +1,17 @@
+package modelo.Boletin9Ejercicio1;
+
+public class Serpiente extends Mascota {
+
+	@Override
+	public String muestra() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean habla() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,8 @@
+package modelo;
+
+public abstract class Animal {
+
+	public abstract String getSonidoAnimal();
+	public abstract String getAlimento();
+
+}

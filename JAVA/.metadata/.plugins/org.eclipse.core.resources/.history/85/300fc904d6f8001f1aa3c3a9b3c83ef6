@@ -1,0 +1,23 @@
+package modelo.Boletin9Ejercicio1;
+
+public class Loro extends Aves {
+
+	@Override
+	public boolean volar() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String muestra() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean habla() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

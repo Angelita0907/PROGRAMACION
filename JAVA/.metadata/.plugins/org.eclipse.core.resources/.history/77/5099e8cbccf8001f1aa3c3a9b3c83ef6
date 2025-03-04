@@ -1,0 +1,16 @@
+package modelo;
+
+public class Gato extends Animal {
+
+	@Override
+	public String getSonidoAnimal() {
+
+		return "miau miau";
+	}
+
+	@Override
+	public String getAlimento() {
+		return "Pescado";
+	}
+	
+}

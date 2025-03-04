@@ -1,0 +1,5 @@
+package modelo.Boletin9Ejercicio1;
+
+public abstract class Mascota {
+
+}

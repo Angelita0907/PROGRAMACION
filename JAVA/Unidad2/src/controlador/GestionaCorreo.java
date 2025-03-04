@@ -25,8 +25,8 @@ public class GestionaCorreo {
 		}
  		// es lo mismo que el if siguiente sigo = (contadorCorreosValidos == 5);
  		// (contadorCorreosValidos !=5)? true:false;
- 		if (contadorCorreosValidos ==5 ) 
- 			{sigo = false;}
+ 		if (contadorCorreosValidos ==5 ) {
+ 			sigo = false;}
 	
 	}
 	

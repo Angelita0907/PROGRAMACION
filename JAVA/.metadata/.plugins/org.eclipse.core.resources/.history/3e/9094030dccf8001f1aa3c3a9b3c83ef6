@@ -1,0 +1,14 @@
+package modelo;
+
+public class Animal {
+
+	public String getSonidoAnimal() {
+
+		return "";
+	}
+
+	public String getAlimento() {
+		return "";
+	}
+
+}

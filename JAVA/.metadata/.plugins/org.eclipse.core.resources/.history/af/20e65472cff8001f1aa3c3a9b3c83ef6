@@ -1,0 +1,17 @@
+package modelo;
+
+public class Cuadrado extends Figura {
+
+	public Cuadrado(String color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+	private double lado;
+
+	   public double calcularArea()
+	   {
+	       return lado*lado;
+	   }
+
+}

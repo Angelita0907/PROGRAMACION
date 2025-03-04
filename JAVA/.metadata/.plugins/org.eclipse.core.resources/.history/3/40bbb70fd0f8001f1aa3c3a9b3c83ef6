@@ -1,0 +1,15 @@
+package controlador;
+
+import modelo.Figura;
+import modelo.Cuadrado;
+import modelo.Triangulo;
+
+public class GestionaFigura {
+	
+	Figura cuadrado1 = new Cuadrado("verde", 2);
+	Figura triangulo1 = new Triangulo("amarillo", 3, 5);
+	
+
+
+
+}
