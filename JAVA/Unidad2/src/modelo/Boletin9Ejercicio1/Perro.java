@@ -29,11 +29,10 @@ public class Perro extends Mascota {
 		this.pulgas = pulgas;
 	}
 
-	//toString 
 	@Override
 	public String muestra() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Perro [raza=" + raza + ", pulgas=" + pulgas + ", nombre=" + nombre + ", edad=" + edad + ", estado="
+				+ estado + ", fechaNacimiento=" + fechaNacimiento + "]";
 	}
 
 	public boolean habla() {

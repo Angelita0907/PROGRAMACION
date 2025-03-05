@@ -1,0 +1,17 @@
+package modelo.Boletin9Ejercicio3;
+
+public class Soldador extends Robot {
+
+	@Override
+	public String ejecutarTarea() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean recargar() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

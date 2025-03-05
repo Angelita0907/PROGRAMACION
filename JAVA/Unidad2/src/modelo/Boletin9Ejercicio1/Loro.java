@@ -35,11 +35,10 @@ public class Loro extends Aves {
 		return true;
 	}
 
-	//toString
 	@Override
 	public String muestra() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Loro [origen=" + origen + ", hablar=" + hablar + ", nombre=" + nombre + ", edad=" + edad + ", estado="
+				+ estado + ", fechaNacimiento=" + fechaNacimiento + "]";
 	}
 
 	@Override

@@ -36,9 +36,16 @@
     <fullyQualifiedTypeName name="yummyyummy.Cliente"/>
     <fullyQualifiedTypeName name="autoincrement.Persona"/>
     <fullyQualifiedTypeName name="modelo.Circulo"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="controlador.GestionaPersona"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="modelo.CorreoElectronico"/>
+    <fullyQualifiedTypeName name="modelo.Gato"/>
+    <fullyQualifiedTypeName name="modelo.Perro"/>
+    <fullyQualifiedTypeName name="modelo.Pez"/>
+    <fullyQualifiedTypeName name="modelo.Animal"/>
+    <fullyQualifiedTypeName name="modelo.Figura"/>
+    <fullyQualifiedTypeName name="modelo.Triangulo"/>
+    <fullyQualifiedTypeName name="modelo.Cuadrado"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

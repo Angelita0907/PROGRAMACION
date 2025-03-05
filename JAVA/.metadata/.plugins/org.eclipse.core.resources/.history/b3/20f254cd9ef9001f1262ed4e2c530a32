@@ -1,0 +1,23 @@
+package modelo.Boletin9Ejercicio3;
+
+public class Esamblador extends Robot {
+
+	public Esamblador(int id, String nombre, String modelo, int bateria, Estado estadoRobots, String combustible,
+			String descripcion) {
+		super(id, nombre, modelo, bateria, estadoRobots, combustible, descripcion);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String ejecutarTarea() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean recargar() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -35,11 +35,10 @@ public class Canario extends Aves {
 		return true;
 	}
 
-	//toString
 	@Override
 	public String muestra() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Canario [color=" + color + ", canta=" + canta + ", nombre=" + nombre + ", edad=" + edad + ", estado="
+				+ estado + ", fechaNacimiento=" + fechaNacimiento + "]";
 	}
 
 	@Override

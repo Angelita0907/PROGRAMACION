@@ -29,17 +29,16 @@ public class Gato extends Mascota {
 		this.peloLargo = peloLargo;
 	}
 
-	//toString
-	@Override
-	public String muestra() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	@Override
 	public boolean habla() {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public String muestra() {
+		return "Gato [color=" + color + ", peloLargo=" + peloLargo + ", nombre=" + nombre + ", edad=" + edad
+				+ ", estado=" + estado + ", fechaNacimiento=" + fechaNacimiento + "]";
 	}
 
 }

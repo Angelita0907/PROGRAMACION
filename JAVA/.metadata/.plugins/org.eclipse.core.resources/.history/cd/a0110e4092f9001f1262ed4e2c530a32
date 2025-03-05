@@ -1,0 +1,10 @@
+package controlador.Boletin9Ejercicio1;
+
+public class GestionaTiendaAnimales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
