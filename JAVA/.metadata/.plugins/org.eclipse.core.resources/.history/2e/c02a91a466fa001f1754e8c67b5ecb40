@@ -1,0 +1,5 @@
+package modelo.Interfaces1Ejercicio1;
+
+public abstract class Animal {
+
+}

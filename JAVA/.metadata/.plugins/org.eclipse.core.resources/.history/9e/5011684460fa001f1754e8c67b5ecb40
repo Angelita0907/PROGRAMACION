@@ -1,0 +1,17 @@
+package interfacesEjemplo;
+
+public class Mascota extends Animal {
+
+	@Override
+	void come() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void respira() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

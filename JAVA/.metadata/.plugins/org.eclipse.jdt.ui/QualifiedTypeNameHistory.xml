@@ -47,5 +47,11 @@
     <fullyQualifiedTypeName name="modelo.Figura"/>
     <fullyQualifiedTypeName name="modelo.Triangulo"/>
     <fullyQualifiedTypeName name="modelo.Cuadrado"/>
+    <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Perro"/>
+    <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Loro"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Serpiente"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio3.Robot.Estado"/>
 </qualifiedTypeNameHistroy>

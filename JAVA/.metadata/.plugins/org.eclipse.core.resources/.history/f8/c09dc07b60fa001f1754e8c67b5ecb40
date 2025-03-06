@@ -1,0 +1,5 @@
+package interfacesEjemplo;
+
+public class Perro extends Mascota {
+
+}
