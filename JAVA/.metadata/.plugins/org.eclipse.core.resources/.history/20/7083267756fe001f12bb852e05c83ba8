@@ -1,0 +1,17 @@
+package modelo.Interfaces1Ejercicio2;
+
+public class Juego extends Multimedia {
+
+	@Override
+	public boolean estaDisponible() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int devuelveDiasPrestado() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

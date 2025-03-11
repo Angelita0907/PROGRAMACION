@@ -8,18 +8,26 @@ public abstract class Animal {
 	private Animal animalqueCome [];
 	private Animal animalesComido [];	
 	
-	enum tipoFamilia{
+	public enum tipoFamilia{
 		RAPAZ, LEON, ROEDOR, SERPIENTE
 	}
 	
 	public Animal(String nombreEspecie, tipoFamilia familiaAnimal, String habitat, Animal[] animalqueCome,
-			Animal[] animalesComido, boolean ani) {
+			Animal[] animalesComido) {
 		super();
 		this.nombreEspecie = nombreEspecie;
 		this.familiaAnimal = familiaAnimal;
 		this.habitat = habitat;
 		this.animalqueCome = animalqueCome;
 		this.animalesComido = animalesComido;
+	}
+	
+	
+	
+	public Animal() {
+		super();
+		this.setAnimalqueCome(new Animal [10]);
+		this.setAnimalesComido(new Animal[10]);
 	}
 
 	public String getNombreEspecie() {

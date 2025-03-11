@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="objetos_boletin2_Ejercicio2.GestionaGatos"/>
-    <fullyQualifiedTypeName name="objetos_boletin2_Ejercicio2.Gato"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.time.chrono.ChronoLocalDate"/>
-    <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.CuentaBancaria"/>
     <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.Persona"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorInterino"/>
@@ -49,9 +44,20 @@
     <fullyQualifiedTypeName name="modelo.Cuadrado"/>
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Perro"/>
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Loro"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio1.Serpiente"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio3.Robot.Estado"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio3.Dispositivo.Estado"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="interfacesEjemplo.Transportable"/>
+    <fullyQualifiedTypeName name="interfacesEjemplo.Animal"/>
+    <fullyQualifiedTypeName name="interfacesEjemplo.Canino"/>
+    <fullyQualifiedTypeName name="interfacesEjemplo.Perro"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio1.Serpiente"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio1.Animal.tipoFamilia"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.IPrestable"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.Recurso"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.Multimedia"/>
 </qualifiedTypeNameHistroy>

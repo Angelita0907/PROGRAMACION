@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Unidad2/src&lt;modelo{Animal.java[Animal" modifiers="1025" timestamp="1741074382828"/>
     <typeInfo handle="=Unidad2/src&lt;modelo{Herbiboro.java[Herbiboro" modifiers="1025" timestamp="1741074920421"/>
     <typeInfo handle="=Unidad2/src&lt;modelo{Figura.java[Figura" modifiers="1025" timestamp="1741075298882"/>
     <typeInfo handle="=Unidad2/C:\/Users\/Achimon\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700\/jre\/lib\/jrt-fs.jar`java.base&lt;java.util(Calendar$AvailableCalendarTypes.class[AvailableCalendarTypes" modifiers="10" timestamp="1729782400000"/>
     <typeInfo handle="=Unidad2/src&lt;modelo.Boletin9Ejercicio1{Aves.java[Aves" modifiers="1025" timestamp="1741078798887"/>
     <typeInfo handle="=Unidad2/src&lt;modelo.Boletin9Ejercicio1{Mascota.java[Mascota" modifiers="1025" timestamp="1741159738106"/>
-    <typeInfo handle="=Unidad2/src&lt;modelo.Boletin9Ejercicio3{Robot.java[Robot" modifiers="1025" timestamp="1741163621399"/>
+    <typeInfo handle="=Unidad2/src&lt;modelo.Boletin9Ejercicio3{Robot.java[Robot" modifiers="1025" timestamp="1741164908337"/>
+    <typeInfo handle="=Unidad2/src&lt;modelo.Boletin9Ejercicio3{Dispositivo.java[Dispositivo" modifiers="1025" timestamp="1741245835165"/>
+    <typeInfo handle="=Unidad2/src&lt;interfacesEjemplo{SerVivo.java[SerVivo" modifiers="1025" timestamp="1741247459846"/>
+    <typeInfo handle="=Unidad2/src&lt;modelo{Animal.java[Animal" modifiers="1025" timestamp="1741074382828"/>
+    <typeInfo handle="=Unidad2/src&lt;interfacesEjemplo{Animal.java[Animal" modifiers="1025" timestamp="1741247613950"/>
+    <typeInfo handle="=Unidad2/src&lt;interfacesEjemplo{Mascota.java[Mascota" modifiers="1" timestamp="1741247741488"/>
+    <typeInfo handle="=Unidad2/src&lt;modelo.Interfaces1Ejercicio1{Animal.java[Animal" modifiers="1025" timestamp="1741679519622"/>
+    <typeInfo handle="=Unidad2/src&lt;modelo.Interfaces1Ejercicio2{Multimedia.java[Multimedia" modifiers="1025" timestamp="1741682789504"/>
 </typeInfoHistroy>

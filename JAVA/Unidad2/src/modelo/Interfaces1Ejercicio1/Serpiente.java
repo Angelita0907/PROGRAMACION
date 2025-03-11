@@ -3,8 +3,8 @@ package modelo.Interfaces1Ejercicio1;
 public class Serpiente extends Animal {
 
 	public Serpiente(String nombreEspecie, tipoFamilia familiaAnimal, String habitat, Animal[] animalqueCome,
-			Animal[] animalesComido, boolean ani) {
-		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido, ani);
+			Animal[] animalesComido) {
+		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -16,6 +16,6 @@ public class Serpiente extends Animal {
 	@Override
 	public boolean huir(Animal a) {
 		return false;
-	}
+	}                                               
 
 }

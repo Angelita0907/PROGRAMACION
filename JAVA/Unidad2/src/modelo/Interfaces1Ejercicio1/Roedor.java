@@ -4,7 +4,12 @@ public class Roedor extends Animal {
 
 	public Roedor(String nombreEspecie, tipoFamilia familiaAnimal, String habitat, Animal[] animalqueCome,
 			Animal[] animalesComido, boolean ani) {
-		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido, ani);
+		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Roedor() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
 

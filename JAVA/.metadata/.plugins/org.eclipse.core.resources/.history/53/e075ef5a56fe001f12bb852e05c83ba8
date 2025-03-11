@@ -1,0 +1,12 @@
+package modelo.Interfaces1Ejercicio2;
+
+public class Audio extends Multimedia {
+
+	public Audio(int id, String ubicacion, String nombre, String genero, int diasPrestamo) {
+		super(id, ubicacion, nombre, genero, diasPrestamo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

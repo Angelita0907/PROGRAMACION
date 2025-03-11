@@ -4,7 +4,7 @@ public class Leon extends Animal {
 
 	public Leon(String nombreEspecie, tipoFamilia familiaAnimal, String habitat, Animal[] animalqueCome,
 			Animal[] animalesComido, boolean ani) {
-		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido, ani);
+		super(nombreEspecie, familiaAnimal, habitat, animalqueCome, animalesComido);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -16,6 +16,11 @@ public class Leon extends Animal {
 	@Override
 	public boolean huir(Animal a) {
 		return false;
+	}
+
+	public Leon() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 }
