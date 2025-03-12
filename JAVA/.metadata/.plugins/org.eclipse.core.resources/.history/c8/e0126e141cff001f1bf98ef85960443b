@@ -1,0 +1,14 @@
+package Refactoriza;
+
+import Refactoriza.*;
+
+public class GestionaPersonaRefactoriza {
+
+	public static void main(String[] args) {
+		
+		PersonaRefactoriza carlos = new PersonaRefactoriza("Carlos R.");
+		IAcciones[] acciones = carlos.getAcciones();
+		
+	}
+
+}

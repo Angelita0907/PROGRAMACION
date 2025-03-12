@@ -1,0 +1,13 @@
+package Refactoriza;
+
+public class Empleado implements IAcciones{
+
+	@Override
+	public void ejecutarAcciones() {
+		System.out.println("Trabajador que trabaja");
+		
+	}
+
+	
+	
+}

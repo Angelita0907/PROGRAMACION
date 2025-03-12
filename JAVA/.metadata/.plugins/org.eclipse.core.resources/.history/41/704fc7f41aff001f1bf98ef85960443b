@@ -1,0 +1,18 @@
+package Refactoriza;
+
+public class Empleado extends PersonaRefactoriza implements IAcciones{
+
+	public Empleado(String nombre) {
+		super(nombre);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void ejecutarAcciones() {
+		System.out.println("Trabajador que trabaja");
+		
+	}
+
+	
+	
+}

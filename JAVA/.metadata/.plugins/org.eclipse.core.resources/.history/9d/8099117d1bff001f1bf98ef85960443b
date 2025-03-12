@@ -1,0 +1,20 @@
+package Refactoriza;
+
+public class PersonaRefactoriza {
+	String nombre;
+	IAcciones[] acciones;
+
+	public PersonaRefactoriza() {
+		super();
+		this.acciones = new IAcciones[10];
+	}
+
+	public PersonaRefactoriza(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	public void identificarse() {
+		System.out.println("Soy una persona y me llamo " + nombre);
+	}
+}

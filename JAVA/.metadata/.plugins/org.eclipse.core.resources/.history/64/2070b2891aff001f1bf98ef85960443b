@@ -1,0 +1,10 @@
+package Refactoriza;
+
+public class Estudiante implements IAcciones {
+
+	@Override
+	public void ejecutarAcciones() {
+		System.out.println("Estudiante estudia");		
+	}
+
+}

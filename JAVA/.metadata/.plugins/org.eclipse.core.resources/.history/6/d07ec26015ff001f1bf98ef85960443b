@@ -1,0 +1,8 @@
+package Refactoriza;
+
+class Cliente extends PersonaRefactoriza {
+    public void comprar() {
+        System.out.println(nombre + " está comprando.");
+    }
+}
+

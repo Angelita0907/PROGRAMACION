@@ -1,0 +1,9 @@
+package Refactoriza;
+
+public interface IAcciones {
+	
+	public void ejecutarAcciones();
+	
+	
+
+}

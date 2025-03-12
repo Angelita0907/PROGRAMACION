@@ -1,0 +1,15 @@
+package Refactoriza;
+
+public class Estudiante extends PersonaRefactoriza implements IAcciones {
+
+	public Estudiante() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void ejecutarAcciones() {
+		System.out.println("Estudiante que estudia");		
+	}
+
+}
