@@ -8,6 +8,8 @@ public class Pescado extends Producto implements IAlimentos {
 	private int peso2;
 	private int timepoDuracion;
 	private tipoPescado pecadito;
+	private static final double ivaAplicable = 7;
+
 
 	public enum tipoPescado {
 		BLANCO, AZUL, MARISCO
@@ -68,8 +70,21 @@ public class Pescado extends Producto implements IAlimentos {
 
 	@Override
 	public int getCalorias() {
-		// TODO Auto-generated method stub
-		return 0;
+		if(tipoPescado.AZUL != null) {
+			this.peso2 = peso2*3;
+		}
+		if(tipoPescado.BLANCO != null) {
+			this.peso2 = peso2*2;
+		}
+		if(tipoPescado.MARISCO != null) {
+			this.peso2 = peso2*1;
+		}
+		
+		return peso2;
+	}
+	
+	public int precioNeto() {
+		return this.precioNeto();
 	}
 
 }

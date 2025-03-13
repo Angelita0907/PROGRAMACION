@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="objetos_boletin3_Ejercicio3.Persona"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorInterino"/>
-    <fullyQualifiedTypeName name="herencias_EjemploClase.ProfesorTitular"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Persona"/>
     <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Entrenador"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Personaje"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.IPrestable"/>
     <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.Recurso"/>
     <fullyQualifiedTypeName name="modelo.Interfaces1Ejercicio2.Multimedia"/>
+    <fullyQualifiedTypeName name="Refactoriza.PersonaRefactoriza"/>
+    <fullyQualifiedTypeName name="Refactoriza.IAcciones"/>
+    <fullyQualifiedTypeName name="Refactoriza.Estudiante"/>
+    <fullyQualifiedTypeName name="Refactoriza.Empleado"/>
+    <fullyQualifiedTypeName name="Refactoriza.Cliente"/>
 </qualifiedTypeNameHistroy>

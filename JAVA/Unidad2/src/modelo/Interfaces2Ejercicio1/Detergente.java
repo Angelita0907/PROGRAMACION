@@ -5,6 +5,9 @@ public class Detergente extends Producto implements ILiquidos, IDescuentos {
 	private String marca;
 	private tipoDetergente detergente;
 	private tipoRopa ropa;
+	private double descuento;
+	private double volumen;
+	private String tipoEnvase;
 
 	public Detergente(int id, String nombre, String descripcion, double peso, double precioVenta, double precioCompra,
 			double ivaAplicable, String marca, tipoDetergente detergente, tipoRopa ropa) {
@@ -13,8 +16,6 @@ public class Detergente extends Producto implements ILiquidos, IDescuentos {
 		this.detergente = detergente;
 		this.ropa = ropa;
 	}
-	
-	
 
 	public String getMarca() {
 		return marca;
@@ -39,6 +40,8 @@ public class Detergente extends Producto implements ILiquidos, IDescuentos {
 	public void setRopa(tipoRopa ropa) {
 		this.ropa = ropa;
 	}
+	
+	
 
 	public enum tipoDetergente{
 		MAQUINA, MANO, COMBINADO
@@ -50,44 +53,39 @@ public class Detergente extends Producto implements ILiquidos, IDescuentos {
 
 	@Override
 	public void setDescuento(double des) {
-		// TODO Auto-generated method stub
+		this.descuento = des;
 		
 	}
 
 	@Override
 	public double getDescuento() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.descuento;
 	}
 
 	@Override
 	public double getPrecioDescuento() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.getPrecioVenta() - (this.descuento*this.getPrecioVenta());
 	}
 
 	@Override
 	public void setVolumen(double v) {
-		// TODO Auto-generated method stub
-		
+		this.volumen = v;
 	}
 
 	@Override
 	public double getVolumen() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.volumen;
 	}
 
 	@Override
 	public void setTipoEnvase(String env) {
-		// TODO Auto-generated method stub
+		this.tipoEnvase = env;
 		
 	}
 
 	@Override
 	public String getTipoEnvase() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.tipoEnvase;
 	}
 
 	

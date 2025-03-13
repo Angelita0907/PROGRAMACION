@@ -2,10 +2,17 @@ package modelo.Interfaces2Ejercicio1;
 
 import java.time.LocalDate;
 
+import modelo.Interfaces2Ejercicio1.Pescado.tipoPescado;
+
 public class Vino extends Producto implements IAlimentos, IDescuentos, ILiquidos{
 
 	private String marca;
 	private tipoVino vinito;
+	private double volumen;
+	private String tipoEnvase;
+	private double descuento;
+	private double gradoAlcohol;
+	private int peso;
 
 	public Vino(int id, String nombre, String descripcion, double peso, double precioVenta, double precioCompra,
 			double ivaAplicable, String marca, tipoVino vinito) {
@@ -36,44 +43,39 @@ public class Vino extends Producto implements IAlimentos, IDescuentos, ILiquidos
 
 	@Override
 	public void setVolumen(double v) {
-		// TODO Auto-generated method stub
-		
+		this.volumen = v;			
 	}
 
 	@Override
 	public double getVolumen() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.volumen;
 	}
 
 	@Override
 	public void setTipoEnvase(String env) {
-		// TODO Auto-generated method stub
+		this.tipoEnvase = env;
 		
 	}
 
 	@Override
 	public String getTipoEnvase() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.tipoEnvase;
 	}
 
 	@Override
 	public void setDescuento(double des) {
-		// TODO Auto-generated method stub
+		this.descuento = des;
 		
 	}
 
 	@Override
 	public double getDescuento() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.descuento;
 	}
 
 	@Override
 	public double getPrecioDescuento() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.getPrecioVenta() - (this.descuento*this.getPrecioVenta());
 	}
 
 	@Override
@@ -90,8 +92,17 @@ public class Vino extends Producto implements IAlimentos, IDescuentos, ILiquidos
 
 	@Override
 	public int getCalorias() {
-		// TODO Auto-generated method stub
-		return 0;
+		if(tipoPescado.AZUL != null) {
+			peso= peso*3;
+		}
+		if(tipoPescado.BLANCO != null) {
+			peso = peso*2;
+		}
+		if(tipoPescado.MARISCO != null) {
+			peso= peso*1;
+		}
+		
+		return peso;
 	}
 
 	

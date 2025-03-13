@@ -1,7 +1,0 @@
-package controlador.Boletin9Ejercicio3;
-
-import modelo.Boletin9Ejercicio3.*;
-
-public class GestionaFactoria {
-
-}
