@@ -1,0 +1,13 @@
+package excepciones.Boletin1E1;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args)
+	   {
+	           //Declaro objeto fichero
+	           File fichero = new File("salida.txt");
+	           //Lo creo si no existe
+	           boolean creado = fichero.createNewFile();
+	   }
+
+}

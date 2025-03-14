@@ -1,8 +1,0 @@
-package interfacesEjemplo;
-
-public interface Coloreable {
-	public static String ROJO="rojo";
-	abstract void comoColorear();
-
-
-}

@@ -1,0 +1,25 @@
+package excepciones.introductoria;
+
+import java.io.IOException;
+import java.util.InputMismatchException;
+
+public class GeneraExcepcion {
+	
+	public void genereaIOExcepyion() throws IOException
+	{
+		try {
+			throw new IOException();
+		} catch (IOException e) {
+			System.out.println("En el catch de IOE");
+			throw e;
+		}
+	}
+	
+	
+	public void generaMistmatch()
+	{
+		throw new InputMismatchException();	
+	}
+	
+
+}

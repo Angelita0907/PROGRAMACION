@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Persona"/>
-    <fullyQualifiedTypeName name="ejemplo_HerenciaClase.Entrenador"/>
-    <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Personaje"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Villano"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Mago"/>
     <fullyQualifiedTypeName name="herencias_b2_Ejercicio1.Arquero"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="Refactoriza.Estudiante"/>
     <fullyQualifiedTypeName name="Refactoriza.Empleado"/>
     <fullyQualifiedTypeName name="Refactoriza.Cliente"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio1.Pescado"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio1.Pescado.tipoPescado"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>

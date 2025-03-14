@@ -1,0 +1,17 @@
+package excepciones.introductoria;
+
+import java.io.IOException;
+
+public class GestionaExcepcion {
+
+	public static void main(String[] args) {
+		try {
+			throw new IOException("IOExcepyion porque quiero");	
+		} catch (IOException e) {
+			System.out.println("Ocurre una excepcion: "+e.getMessage());
+		}
+		System.out.println("Llego aquí");
+		
+	}
+
+}
