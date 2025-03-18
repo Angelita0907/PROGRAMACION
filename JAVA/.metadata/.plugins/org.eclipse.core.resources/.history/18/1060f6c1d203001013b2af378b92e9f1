@@ -1,0 +1,15 @@
+package excepcionesEjemplo;
+
+public class GestionaMiExcepcion {
+
+	public static void main(String[] args) {
+		try {
+		throw new MiExcepcion("Lanzando mis excepciones");
+		}
+		catch (MiExcepcion e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}
