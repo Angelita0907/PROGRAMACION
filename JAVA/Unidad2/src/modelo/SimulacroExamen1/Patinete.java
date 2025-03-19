@@ -53,12 +53,11 @@ public class Patinete extends VehiculoGEneral {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
-	// terminar
-	/*public boolean fianzaAbonada() {
-		
-		
-	}*/
+
+	// mirar como lo de boolean
+	public void fianzaAbonada() {
+
+	}
 
 	@Override
 	public double getPrecioDia() {

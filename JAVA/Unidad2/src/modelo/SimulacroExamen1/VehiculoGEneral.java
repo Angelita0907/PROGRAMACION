@@ -37,5 +37,8 @@ public abstract class VehiculoGEneral implements IAlquilable {
 		this.disponible = disponible;
 	}
 	
-
+	//terminar
+	public int getImporteTotalGenerado() {
+		return 0;};
+	
 }

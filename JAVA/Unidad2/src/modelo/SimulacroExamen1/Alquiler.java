@@ -118,10 +118,29 @@ public class Alquiler {
 				&& Objects.equals(fechaRegistro, other.fechaRegistro);
 	}
 
-	/* se hace con instace of
+	// se hace con instace of
+	
 	   public double getPrecioPorDia() {
-
-	}
-	*/
+		   double precioDia = 0;
+		   double precioBase;
+		   if(datosVehiculo instanceof Furgoneta) {
+			  precioBase = 45;
+			  precioDia = ((precioBase + ((Furgoneta) datosVehiculo).getPma() * 0.05));
+		   }
+		   if(datosVehiculo instanceof Coche) {
+				  precioBase = 40;
+				  precioDia = precioBase;
+		   }
+		   
+		   return precioDia;
+	   }
+	   
+	   public double getImporteGeneradoPorAlquiler() {
+		   double importeAlquiler = 0;
+		   
+		   return importeAlquiler;
+	   }
+	   
+	
 
 }
