@@ -3,14 +3,14 @@ package modelo.Interfaces2Ejercicio2;
 import java.util.Objects;
 
 public abstract class AEmpleado implements INomina {
-	
+
 	private String nombre;
 	private String identificador;
 	private String apellidos;
 	private float salario;
 	private boolean tienereReduccionHoraria;
 	private Categoria puesto;
-	
+
 	public AEmpleado(String nombre, String identificador, String apellidos, float salario,
 			boolean tienereReduccionHoraria, Categoria puesto) {
 		super();
@@ -20,6 +20,10 @@ public abstract class AEmpleado implements INomina {
 		this.salario = salario;
 		this.tienereReduccionHoraria = tienereReduccionHoraria;
 		this.puesto = puesto;
+	}
+
+	public AEmpleado() {
+		super();
 	}
 
 	public String getNombre() {
@@ -81,16 +85,30 @@ public abstract class AEmpleado implements INomina {
 		AEmpleado other = (AEmpleado) obj;
 		return Objects.equals(identificador, other.identificador);
 	}
-	
+
+	abstract String[] devuelveFunciones();
+
 	abstract void imprimeHorario();
 
 	@Override
 	public String toString() {
 		return "AEmpleado [nombre=" + nombre + ", identificador=" + identificador + ", apellidos=" + apellidos
-				+ ", salario=" + salario + ", tienereReduccionHoraria=" + tienereReduccionHoraria + ", puesto=" + puesto
-				+ "]";
+				+ ", salario=" + salario + ", puesto=" + puesto + "]";
 	}
-	
-	
+
+	protected int calculaElementostabla(String[] tabla) {
+
+		int elementos = 0;
+
+		for (int i = 0; i < tabla.length; i++) {
+
+			if (tabla[i] != null) {
+				elementos = elementos + 1;
+			}
+
+		}
+
+		return elementos;
+	}
 
 }

@@ -1,0 +1,5 @@
+package modelo.SimulacroExamen1;
+
+public class Coche extends VehiculoCombustible {
+
+}

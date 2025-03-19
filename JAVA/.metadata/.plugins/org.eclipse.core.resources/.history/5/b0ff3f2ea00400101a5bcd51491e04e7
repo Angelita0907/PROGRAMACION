@@ -1,0 +1,11 @@
+package modelo.SimulacroExamen1;
+
+public abstract class VehiculoGEneral implements IAlquilable {
+	
+	private int id;
+	private Alquiler [] alquiler;
+	private boolean disponible;
+	
+	
+
+}

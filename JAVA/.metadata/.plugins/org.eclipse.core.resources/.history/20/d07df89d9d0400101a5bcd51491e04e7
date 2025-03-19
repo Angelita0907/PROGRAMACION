@@ -1,0 +1,12 @@
+package modelo.SimulacroExamen1;
+
+public class Alquiler {
+	
+	private int id;
+	private VehiculoGEneral datosVehiculo;
+	private int numCarnet;
+	private String dni;
+	private int numDias;
+	private EstadoCoche estado;
+
+}

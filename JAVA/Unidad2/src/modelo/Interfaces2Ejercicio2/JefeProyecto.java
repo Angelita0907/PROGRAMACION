@@ -33,8 +33,23 @@ public class JefeProyecto extends AEmpleado {
 
 	@Override
 	public double calculaimporteNomina() {
+		
+		double nomina = 0;
+		
+		if(this.hablaInfles) {
+			nomina = this.getSalario() + ((this.calculaElementostabla(certificaciones)*0.05F) + 0.03F );
+		}
+		
+		else {
+			nomina = this.getSalario() + (this.calculaElementostabla(certificaciones)*0.05F);
+		}
+		
+		return nomina;
+	}
+
+	private Object getLenguajes() {
 		// TODO Auto-generated method stub
-		return 0;
+		return null;
 	}
 
 	@Override
@@ -47,6 +62,12 @@ public class JefeProyecto extends AEmpleado {
 			System.out.println("Horario de 8 a 7");
 		}
 		
+	}
+
+	@Override
+	String[] devuelveFunciones() {
+		String [] funciones = {"planificar", "asegurar calidad y entrega de plazos","reporting","elaboracion de orfertas"};
+		return funciones;
 	}
 	
 	

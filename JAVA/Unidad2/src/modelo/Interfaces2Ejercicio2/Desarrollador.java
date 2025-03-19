@@ -11,6 +11,7 @@ public class Desarrollador extends AEmpleado{
 		this.lenguajes = lenguajes;
 		this.frameworks = frameworks;
 	}
+	
 
 	public String[] getLenguajes() {
 		return lenguajes;
@@ -30,10 +31,9 @@ public class Desarrollador extends AEmpleado{
 
 	@Override
 	public double calculaimporteNomina() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
+		return this.getSalario() + ( (this.calculaElementostabla(lenguajes)*0.01F) + (this.calculaElementostabla(frameworks)*0.03F));
+		}
+	
 	@Override
 	void imprimeHorario() {
 		
@@ -44,6 +44,12 @@ public class Desarrollador extends AEmpleado{
 			System.out.println("Horario de 8 a 4 y de 4 a 12");
 		}
 		
+	}
+
+	@Override
+	String[] devuelveFunciones() {
+		String [] funciones = {"Codificar","Diseñar planes de prueba", "ejecutarlos"};
+		return funciones;
 	}
 
 }

@@ -1,0 +1,33 @@
+package modelo.SimulacroExamen1;
+
+public class Furgoneta extends VehiculoCombustible {
+	
+	private int numPlazas;
+	private int Pma;
+	
+	public Furgoneta(int id, Alquiler[] alquiler, boolean disponible, String matricula, boolean diesel, String modelo,
+			String marca, int numPlazas, int pma) {
+		super(id, alquiler, disponible, matricula, diesel, modelo, marca);
+		this.numPlazas = numPlazas;
+		Pma = pma;
+	}
+
+	public int getNumPlazas() {
+		return numPlazas;
+	}
+
+	public void setNumPlazas(int numPlazas) {
+		this.numPlazas = numPlazas;
+	}
+
+	public int getPma() {
+		return Pma;
+	}
+
+	public void setPma(int pma) {
+		Pma = pma;
+	}
+	
+	
+
+}
