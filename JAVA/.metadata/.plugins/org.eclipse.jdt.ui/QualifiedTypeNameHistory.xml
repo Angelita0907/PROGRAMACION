@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="simulacro2.Incidente"/>
-    <fullyQualifiedTypeName name="gestionDeDispositivos.Laptop"/>
-    <fullyQualifiedTypeName name="gestionDeDispositivos.PCSobremesa"/>
-    <fullyQualifiedTypeName name="gestionDeDispositivos.Dispositivo"/>
     <fullyQualifiedTypeName name="gestionDeDispositivos.Smartphone"/>
     <fullyQualifiedTypeName name="yummyyummy.Dieta"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
@@ -28,7 +24,6 @@
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio3.Robot.Estado"/>
     <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
     <fullyQualifiedTypeName name="modelo.Boletin9Ejercicio3.Dispositivo.Estado"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="interfacesEjemplo.Transportable"/>
     <fullyQualifiedTypeName name="interfacesEjemplo.Animal"/>
     <fullyQualifiedTypeName name="interfacesEjemplo.Canino"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="excepciones.Boletin1E5.GeneraExcepciones"/>
     <fullyQualifiedTypeName name="excepciones.Boletin1E5.MiExcepcion"/>
+    <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio2.Desarrollador"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.VehiculoGEneral"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.EstadoCoche"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.IAlquilable"/>
 </qualifiedTypeNameHistroy>

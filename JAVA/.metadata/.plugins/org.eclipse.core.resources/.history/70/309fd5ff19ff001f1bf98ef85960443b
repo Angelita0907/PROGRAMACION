@@ -1,7 +1,0 @@
-package Refactoriza;
-
-public interface IAcciones {
-	
-	void ejecutarAcciones();
-
-}

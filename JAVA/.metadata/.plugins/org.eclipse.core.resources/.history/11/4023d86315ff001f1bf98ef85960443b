@@ -1,8 +1,0 @@
-package Refactoriza;
-
-class Estudiante extends PersonaRefactoriza {
-    public void estudiar() {
-        System.out.println(nombre + " está estudiando.");
-    }
-}
-

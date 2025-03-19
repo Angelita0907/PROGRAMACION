@@ -1,8 +1,0 @@
-package Refactoriza;
-
-class Artista extends PersonaRefactoriza {
-    public void pintar() {
-        System.out.println(nombre + " está pintando.");
-    }
-}
-
