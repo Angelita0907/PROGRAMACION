@@ -70,14 +70,15 @@ public abstract class Deportista implements ICompeticion{
 	abstract int tiempoCalentamiento();
 	abstract double getCaloriasNecesariasDia();
 	
+	public int horasEntrenamiento() {
+		int numhoras;
+		
+		
+		
+		return numhoras;
+	}
+
+	 //addPrueba(Prueba) --> competicionException
 	
-	
-	/*
-	 * metodos (algunos)
-	 * 
-	 * addPrueba(Prueba) --> competicionException
-	 * 
-	 * 
-	 * */
 	
 }

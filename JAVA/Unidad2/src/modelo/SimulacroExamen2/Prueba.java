@@ -9,4 +9,6 @@ public class Prueba {
 	private LocalDate fecha;
 	private Estado estadoPrueba;
 
+	
+	
 }

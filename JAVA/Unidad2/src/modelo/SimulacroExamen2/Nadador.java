@@ -9,7 +9,7 @@ public class Nadador extends Deportista {
 
 	@Override
 	public void competir() {
-		// TODO Auto-generated method stub
+		System.out.println("El nadador nada");
 
 	}
 

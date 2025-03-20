@@ -9,8 +9,7 @@ public class Corredor extends Deportista {
 
 	@Override
 	public void competir() {
-		// TODO Auto-generated method stub
-
+		System.out.println("El corredor corre");
 	}
 
 	@Override

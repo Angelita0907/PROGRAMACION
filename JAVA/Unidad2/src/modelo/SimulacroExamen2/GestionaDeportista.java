@@ -1,7 +1,5 @@
 package modelo.SimulacroExamen2;
 
-import java.util.concurrent.CompletionException;
-
 public class GestionaDeportista {
 
 	public static void main(String[] args)  {
