@@ -54,10 +54,6 @@ public abstract class VehiculoCombustible extends VehiculoGEneral {
 		return false;
 	}
 
-	@Override
-	public double getPrecioDia() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 
 }

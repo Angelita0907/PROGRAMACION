@@ -1,0 +1,5 @@
+package modelo.SimulacroExamen2;
+
+public enum Estado {
+
+}

@@ -1,0 +1,29 @@
+package modelo.SimulacroExamen2;
+
+public class Corredor extends Deportista {
+
+	@Override
+	public void competir() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int tiempoPrueba() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	int tiempoCalentamiento() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	double getCaloriasNecesariasDia() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

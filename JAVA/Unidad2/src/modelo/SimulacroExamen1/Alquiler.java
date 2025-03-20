@@ -125,10 +125,14 @@ public class Alquiler {
 		   double precioBase;
 		   if(datosVehiculo instanceof Furgoneta) {
 			  precioBase = 45;
-			  precioDia = ((precioBase + ((Furgoneta) datosVehiculo).getPma() * 0.05));
+			  precioDia = precioBase;
 		   }
 		   if(datosVehiculo instanceof Coche) {
 				  precioBase = 40;
+				  precioDia = precioBase;
+		   }
+		   if(datosVehiculo instanceof Patinete) {
+				  precioBase = 50;
 				  precioDia = precioBase;
 		   }
 		   
@@ -137,7 +141,17 @@ public class Alquiler {
 	   
 	   public double getImporteGeneradoPorAlquiler() {
 		   double importeAlquiler = 0;
-		   
+		   int diasAlquilados = this.numDias;
+		   double precioDia = 0;
+		   if(datosVehiculo instanceof Furgoneta) {
+				  importeAlquiler = ((precioBase + (getPrecioPorDia() + ((Furgoneta) datosVehiculo).getPma() * 0.05)));
+			   }
+			   if(datosVehiculo instanceof Coche) {
+				   importeAlquiler = getPrecioPorDia()*diasAlquilados;
+			   }
+			   if(datosVehiculo instanceof Patinete) {
+					  importeAlquiler = getPrecioPorDia()+30*(numDias-1);
+			   }
 		   return importeAlquiler;
 	   }
 	   

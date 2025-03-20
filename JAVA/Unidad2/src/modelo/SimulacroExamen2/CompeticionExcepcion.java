@@ -1,0 +1,12 @@
+package modelo.SimulacroExamen2;
+
+import java.util.concurrent.CompletionException;
+
+public class CompeticionExcepcion extends Exception  {
+
+	public CompeticionExcepcion(String mensaje) throws CompletionException {
+		super(mensaje);
+		// TODO Auto-generated constructor stub
+	}
+
+}

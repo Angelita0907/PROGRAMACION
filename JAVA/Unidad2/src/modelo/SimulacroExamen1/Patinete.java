@@ -58,11 +58,18 @@ public class Patinete extends VehiculoGEneral {
 	public void fianzaAbonada() {
 
 	}
-
+	
 	@Override
-	public double getPrecioDia() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double getImporteTotalGenerado() {
+		double importeTotal = 0;
+		for(Alquiler a : getAlquiler()) {
+			if(a!= null && (a.getEstado().equals(EstadoCoche.ENTREGADO) || a.getEstado().equals(EstadoCoche.CERRADO)))
+			{
+				importeTotal = importeTotal+a.getImporteGeneradoPorAlquiler();
+			}
+		}
+		return importeTotal;
 	}
+
 
 }

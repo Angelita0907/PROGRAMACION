@@ -1,0 +1,20 @@
+package modelo.SimulacroExamen2;
+
+public abstract class Deportista implements ICompeticion{
+	
+	private String nombre;
+	private String pais;
+	private int edad;
+	private double peso;
+	private double altura;
+	Prueba [] pruebas;
+
+	/*
+	 * metodos (algunos)
+	 * 
+	 * addPrueba(Prueba) --> competicionException
+	 * 
+	 * 
+	 * */
+	
+}

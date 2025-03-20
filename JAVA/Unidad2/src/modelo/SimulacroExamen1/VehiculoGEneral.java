@@ -35,10 +35,16 @@ public abstract class VehiculoGEneral implements IAlquilable {
 
 	public void setDisponible(boolean disponible) {
 		this.disponible = disponible;
+	} 
+	
+	public double getImporteTotalGenerado() {
+		double importeTotal = 0;
+		for(Alquiler a : getAlquiler()) {
+			if(a!= null && (a.getEstado().equals(EstadoCoche.ENTREGADO) || a.getEstado().equals(EstadoCoche.CERRADO)))
+			{
+				importeTotal = importeTotal+a.getImporteGeneradoPorAlquiler();
+			}
+		}
+		return importeTotal;
 	}
-	
-	//terminar
-	public int getImporteTotalGenerado() {
-		return 0;};
-	
 }
