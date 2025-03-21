@@ -1,22 +1,26 @@
 package modelo.SimulacroExamen2;
 
-public abstract class Deportista implements ICompeticion{
-	
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.concurrent.CompletionException;
+
+public abstract class Deportista implements ICompeticion {
+
 	private String nombre;
 	private String pais;
 	private int edad;
 	private double peso;
 	private double altura;
-	private Prueba [] pruebas = new Prueba [50];
-	
-	public Deportista(String nombre, String pais, int edad, double peso, double altura, Prueba[] pruebas) {
+	private Prueba[] pruebas;
+
+	public Deportista(String nombre, String pais, int edad, double peso, double altura) {
 		super();
 		this.nombre = nombre;
 		this.pais = pais;
 		this.edad = edad;
 		this.peso = peso;
 		this.altura = altura;
-		this.pruebas = pruebas;
+		this.pruebas = new Prueba[50];
 	}
 
 	public String getNombre() {
@@ -68,17 +72,55 @@ public abstract class Deportista implements ICompeticion{
 	}
 
 	abstract int tiempoCalentamiento();
+
 	abstract double getCaloriasNecesariasDia();
-	
-	public int horasEntrenamiento() {
-		int numhoras;
-		
-		
-		
-		return numhoras;
+
+	/*
+	 * public int horasEntrenamiento(LocalDate fecha) { int numhoras;
+	 * 
+	 * numhoras =
+	 * 
+	 * return numhoras; }
+	 */
+
+	public Prueba getpruebaCercana() {
+
+		Prueba pruebaCercana = pruebas[0];
+
+		for (int i = 0; i < pruebas.length; i++) {
+			if (pruebaCercana != null && pruebas[i] != null && pruebas[i].equals(Estado.PLANIFICADA)) {
+				int diasMinimo = pruebaCercana.getFecha().compareTo(LocalDate.now());
+				Prueba itero = pruebas[i];
+				// para saber cuantos dias hay de la fecha actual a la de la prueba
+				int diasItero = itero.getFecha().compareTo(LocalDate.now());
+				if (diasMinimo > diasItero) {
+					pruebaCercana = itero;
+				}
+			}
+
+		}
+		return pruebaCercana;
+
 	}
 
-	 //addPrueba(Prueba) --> competicionException
-	
-	
+	@Override
+	public String toString() {
+		return "Deportista [nombre=" + nombre + ", pais=" + pais + ", edad=" + edad + ", peso=" + peso + ", altura="
+				+ altura + ", pruebas=" + Arrays.toString(pruebas) + "]";
+	}
+
+	public void addPrueba(Prueba p) throws CompeticionExcepcion {
+
+		for (int i = 0; i < pruebas.length; i++) {
+			if (p != null && p.equals(pruebas[i]) || (p != null && p.getEstadoPrueba().equals(Estado.PLANIFICADA)
+					&& p.getFecha().isBefore(LocalDate.now()))) {
+				throw new CompeticionExcepcion(
+						"No puedes añadir una prueba repetida ni con fecha pasada siendo planificada");
+
+			}
+
+		}
+
+	}
+
 }

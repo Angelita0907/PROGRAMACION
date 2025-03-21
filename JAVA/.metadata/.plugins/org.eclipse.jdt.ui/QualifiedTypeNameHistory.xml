@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="gestionDeDispositivos.Smartphone"/>
-    <fullyQualifiedTypeName name="yummyyummy.Dieta"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="yummyyummy.Menu"/>
     <fullyQualifiedTypeName name="yummyyummy.Cliente"/>
     <fullyQualifiedTypeName name="autoincrement.Persona"/>
     <fullyQualifiedTypeName name="modelo.Circulo"/>
@@ -51,13 +47,17 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="excepcionesEjemplo.MiExcepcion"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="excepciones.Boletin1E5.GeneraExcepciones"/>
     <fullyQualifiedTypeName name="excepciones.Boletin1E5.MiExcepcion"/>
     <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio2.Desarrollador"/>
     <fullyQualifiedTypeName name="modelo.SimulacroExamen1.VehiculoGEneral"/>
-    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.EstadoCoche"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="modelo.SimulacroExamen1.IAlquilable"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.Alquiler"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.EstadoCoche"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen1.Patinete"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="modelo.SimulacroExamen2.ICompeticion"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CompletionException"/>
 </qualifiedTypeNameHistroy>

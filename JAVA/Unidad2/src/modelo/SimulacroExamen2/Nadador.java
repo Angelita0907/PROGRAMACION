@@ -2,8 +2,8 @@ package modelo.SimulacroExamen2;
 
 public class Nadador extends Deportista {
 
-	public Nadador(String nombre, String pais, int edad, double peso, double altura, Prueba[] pruebas) {
-		super(nombre, pais, edad, peso, altura, pruebas);
+	public Nadador(String nombre, String pais, int edad, double peso, double altura) {
+		super(nombre, pais, edad, peso, altura);
 		// TODO Auto-generated constructor stub
 	}
 

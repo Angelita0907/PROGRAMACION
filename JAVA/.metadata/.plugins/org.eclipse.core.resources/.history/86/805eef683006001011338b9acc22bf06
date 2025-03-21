@@ -1,0 +1,76 @@
+package modelo.SimulacroExamen3;
+
+import java.util.Objects;
+
+public abstract class Piloto implements IVuelo {
+
+	private String nombre;
+	private String nacionalidad;
+	private int edad;
+	private int numLicencia;
+	private Vuelo [] vuelos;
+	
+	public Piloto(String nombre, String nacionalidad, int edad, int numLicencia, Vuelo[] vuelos) {
+		super();
+		this.nombre = nombre;
+		this.nacionalidad = nacionalidad;
+		this.edad = edad;
+		this.numLicencia = numLicencia;
+		this.vuelos = vuelos;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getNacionalidad() {
+		return nacionalidad;
+	}
+
+	public void setNacionalidad(String nacionalidad) {
+		this.nacionalidad = nacionalidad;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public int getNumLicencia() {
+		return numLicencia;
+	}
+
+	public void setNumLicencia(int numLicencia) {
+		this.numLicencia = numLicencia;
+	}
+
+	public Vuelo[] getVuelos() {
+		return vuelos;
+	}
+
+	public void setVuelos(Vuelo[] vuelos) {
+		this.vuelos = vuelos;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Piloto other = (Piloto) obj;
+		return numLicencia == other.numLicencia;
+	}
+	
+	
+	
+}

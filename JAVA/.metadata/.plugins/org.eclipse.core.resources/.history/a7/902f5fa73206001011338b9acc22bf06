@@ -1,0 +1,15 @@
+package modelo.SimulacroExamen3;
+
+import java.time.LocalDate;
+
+public class GestionaPilotos {
+
+	public static void main(String[] args) {
+		
+		Piloto p1 = new Piloto("pedro", "español", 23,123450);
+		
+		Vuelo v = new Vuelo(454, "vueling", "madid", LocalDate.now(), 10, EstadoVuelo.PROGRAMADO);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package modelo.SimulacroExamen3;
+
+public abstract class Piloto implements IVuelo {
+
+	private String nombre;
+	private String nacionalidad;
+	private int edad;
+	private int numLicencia;
+	private Vuelo [] vuelos;
+	
+}

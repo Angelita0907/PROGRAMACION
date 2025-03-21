@@ -1,0 +1,11 @@
+package modelo.SimulacroExamen3;
+
+public class GestionaPilotos {
+
+	public static void main(String[] args) {
+		
+		Piloto p1 = new Piloto("pedro", "español", 23,123450);
+
+	}
+
+}
