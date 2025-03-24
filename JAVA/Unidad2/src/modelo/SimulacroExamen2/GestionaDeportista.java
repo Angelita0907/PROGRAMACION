@@ -9,6 +9,7 @@ public class GestionaDeportista {
 		Prueba [] pruebad = new Prueba[50];
 
 		Deportista d1 = new Corredor("Pedro", "Españita", 23, 74.6, 1.82);
+		
 		Prueba p1 = new Prueba("p1", "Albacete", LocalDate.now().plusDays(1),Estado.PLANIFICADA);
 		Prueba p2 = new Prueba("p2", "Viallverde", LocalDate.now().plusDays(10),Estado.PLANIFICADA);
 
@@ -17,7 +18,14 @@ public class GestionaDeportista {
 		
 		d1.setPruebas(pruebad);
 		
-		System.out.println(d1.getpruebaCercana());
+		try {
+			d1.addPrueba(p2);
+		} catch (CompeticionExcepcion e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+		}
+		
+		//System.out.println(d1.getpruebaCercana());
 		
 		/*try {
 			Prueba p3 = new Prueba(null, null, null, null);
