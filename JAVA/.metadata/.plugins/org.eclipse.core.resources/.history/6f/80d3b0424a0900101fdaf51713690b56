@@ -1,0 +1,5 @@
+package modelo.ExamenEjercicio1;
+
+public enum TipoPremium {
+
+}

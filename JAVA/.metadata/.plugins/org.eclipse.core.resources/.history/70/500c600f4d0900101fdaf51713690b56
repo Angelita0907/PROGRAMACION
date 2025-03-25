@@ -1,0 +1,11 @@
+package modelo.ExamenEjercicio1;
+
+public class GestionaMiembros {
+
+	public static void main(String[] args) {
+		
+		MiembroBase m1 = MiembroEstandar();
+
+	}
+
+}

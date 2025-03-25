@@ -1,0 +1,16 @@
+package modelo.ExamenEjercicio1;
+
+public class GestionaMiembros {
+
+	public static void main(String[] args) {
+		
+		MiembroBase m1 = new MiembroEstandar("pedro@pedro.com", "Pedro");
+		MiembroBase m2 = new MiembroEstandar("ana@ana.com", "Ana");
+
+		MiembroBase m3 = new MiembroPremium("vicente@vicente.com", null, null);
+		MiembroBase m4 = new MiembroPremium("andres@andres.com", null, null);
+
+
+	}
+
+}

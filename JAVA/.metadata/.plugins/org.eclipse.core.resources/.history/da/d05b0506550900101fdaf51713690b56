@@ -1,0 +1,32 @@
+package modelo.ExamenEjercicio2;
+
+public class RutaAerea extends RutaBase {
+
+	private Vuelos tipoVuelo;
+
+	public RutaAerea(int id, Ciudad ciudadOrigen, Ciudad ciudadDestino, int distanciaKms, Vuelos tipoVuelo) {
+		super(id, ciudadOrigen, ciudadDestino, distanciaKms);
+		this.tipoVuelo = tipoVuelo;
+	}
+
+	public Vuelos getTipoVuelo() {
+		return tipoVuelo;
+	}
+
+	public void setTipoVuelo(Vuelos tipoVuelo) {
+		this.tipoVuelo = tipoVuelo;
+	}
+
+	@Override
+	public double getCoste() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getTipoRuta() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

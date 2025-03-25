@@ -1,0 +1,17 @@
+package modelo.ExamenEjercicio1;
+
+public class MiembroEstandar extends MiembroBase {
+
+	@Override
+	public String getTipoUsuario() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addAmigo(MiembroBase miembro) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

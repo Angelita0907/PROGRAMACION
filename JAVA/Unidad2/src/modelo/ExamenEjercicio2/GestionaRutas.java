@@ -1,0 +1,58 @@
+package modelo.ExamenEjercicio2;
+
+public class GestionaRutas {
+
+	public static void main(String[] args) {
+		
+		GestionaRutas f = new GestionaRutas();
+		
+		Ciudad c1 = new Ciudad("Edimburgo", 1200);
+		Ciudad c2 = new Ciudad("Albacete", 3);
+		Ciudad c3 = new Ciudad("Sevilla", 2000);
+		Ciudad c4 = new Ciudad("Brujas", 500);
+		Ciudad c5 = new Ciudad("Málaga", 7000);
+		Ciudad c6 = new Ciudad("París", 8000);
+		
+		RutaBase r1 = new RutaTerrestre(4, c2, c5, 200, true);
+		RutaBase r2 = new RutaAerea(6, c1, c6, 430, Vuelos.LOW_COST);
+		RutaBase r3 = new RutaAerea(7, c3, c5, 35, Vuelos.NORMAL);
+		RutaBase r4 = new RutaAerea(8, c4, c1, 312, Vuelos.EXPRESS);
+		
+		System.out.println("El coste de la ruta es: " + r1.getCoste());
+		System.out.println("El coste de la ruta es: " + r2.getCoste());
+		System.out.println("El coste de la ruta es: " + r3.getCoste());
+		System.out.println("El coste de la ruta es: " + r4.getCoste());
+		
+		RutaBase [] rutasEmpresa = new RutaBase [50];
+		
+		rutasEmpresa[0] = r1;
+		rutasEmpresa[1] = r2;
+		rutasEmpresa[2] = r3;
+		rutasEmpresa[3] = r4;
+		
+		f.imprimelista(rutasEmpresa);
+		
+	}
+	
+	void imprimelista(RutaBase [] rutaEmpresa) {
+		for(int i = 0; i < rutaEmpresa.length; i ++) {
+			
+			if(rutaEmpresa[i] != null) {
+				System.out.println(rutaEmpresa[i]);
+			}
+			
+		}
+	}
+	
+	boolean estanConectadas(RutaBase [] rutaEmpresa, RutaBase nombreOrigem, RutaBase nombreDestino) {
+		boolean conectadas = false;
+		
+		/*if() {
+			
+		}*/
+		
+		return conectadas;
+	}
+
+	
+}

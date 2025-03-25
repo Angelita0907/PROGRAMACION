@@ -1,0 +1,17 @@
+package modelo.ExamenEjercicio2;
+
+public class RutaAerea extends RutaBase {
+
+	@Override
+	public double getCoste() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getTipoRuta() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
