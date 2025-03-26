@@ -1,0 +1,37 @@
+package listas;
+
+public class MiembroEstandar extends MiembroLista {
+
+	private static int maximoAmigos = 2;
+
+	public MiembroEstandar(String email, String nombre) {
+		super(email, nombre);
+	}
+
+	public static int getMaximoAmigos() {
+		return maximoAmigos;
+	}
+
+	public static void setMaximoAmigos(int maximoAmigos) {
+		MiembroEstandar.maximoAmigos = maximoAmigos;
+	}
+
+	@Override
+	public String getTipoUsuario() {
+		String tipoUsuario = "Estándar";
+		
+		return tipoUsuario;
+	}
+	
+	@Override
+	public String toString() {
+		return "MiembroBase [id=" + getId() + ", email=" + getEmail() + ", nombre=" + getNombre() + ", tipoUsuario= "+ getTipoUsuario();
+	}
+
+	@Override
+	public void addAmigo(MiembroLista miembro) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

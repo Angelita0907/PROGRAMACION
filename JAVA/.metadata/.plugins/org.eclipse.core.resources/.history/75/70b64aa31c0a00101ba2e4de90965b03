@@ -1,0 +1,26 @@
+package listas;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GestionaMiembrosLista {
+
+	public static void main(String[] args) {
+		
+		List < MiembroLista > amigo = new ArrayList <MiembroLista> ();
+		
+		MiembroLista m1 = new MiembroEstandar("pedro@pedro.com", "Pedro");
+		MiembroLista m2 = new MiembroEstandar("ana@ana.com", "Ana");
+		
+		System.out.println(m1.toString());
+		System.out.println(m2.toString());
+		
+		MiembroLista m3 = new MiembroPremium("vicente@vicente.com", "Vicente", TipoPremium.PREMIU_VIP);
+		MiembroLista m4 = new MiembroPremium("andres@andres.com", "Andres", TipoPremium.PREMIUM);
+		
+		
+		
+
+	}
+
+}
