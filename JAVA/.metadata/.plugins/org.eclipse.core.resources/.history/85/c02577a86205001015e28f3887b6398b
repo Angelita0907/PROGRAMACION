@@ -1,5 +1,0 @@
-package modelo.SimulacroExamen2;
-
-public interface ICompeticion {
-
-}

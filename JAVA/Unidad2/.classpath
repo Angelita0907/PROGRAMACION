@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Listas"/>
+	<classpathentry kind="src" path="Objetos"/>
+	<classpathentry kind="src" path="Modelo"/>
+	<classpathentry kind="src" path="Controlador"/>
+	<classpathentry kind="src" path="Excepciones"/>
+	<classpathentry kind="src" path="Herencias"/>
+	<classpathentry kind="src" path="Boletines"/>
+	<classpathentry kind="src" path="Examenes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
