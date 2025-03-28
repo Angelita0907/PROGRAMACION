@@ -1,9 +1,7 @@
 package Repositorio;
 
-import listas.Boletin1Ejercicio3.*;
 import java.util.LinkedList;
 import java.util.List;
-
 import modelo.Prestamo;
 
 public class RepositorioPrestamo {
@@ -17,14 +15,8 @@ public class RepositorioPrestamo {
 	
 	//agregar Prestamo
 	
-	public void addListaFinal(Prestamo p) throws BibliotecaException {
+	public void addListaFinal(Prestamo p) {
 		
-		if(p.equals(EstadoLibro.LIBRE)) {
-			listaPrestamo.addLast(p);
-		}
-		else if(p.equals(EstadoLibro.PRESTADO)) {
-			throw new BibliotecaException("No es posible realizar el préstamo de un libro que ya está prestado");
-		}
 		
 	}
 	
@@ -33,11 +25,7 @@ public class RepositorioPrestamo {
 	
 	
 	//mostrar lista de prestamos
-	public void imprimePrestamos() {
-		for(Prestamo cadena : listaPrestamo) {
-			System.out.println(cadena);
-		}
-	}
+	
 	
 	
 	//segun libro imprimir prestamos del mismo

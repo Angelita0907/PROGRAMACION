@@ -1,0 +1,11 @@
+package controlador;
+
+import Repositorio.ListaProvincias;
+
+public class GestionaProvincias {
+	
+	public static void main(String[] args) {
+		ListaProvincias lista = new ListaProvincias();
+	}
+
+}
