@@ -1,5 +1,6 @@
 package controlador;
 
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -9,18 +10,25 @@ public class GestionaEquipo {
 
 	public static void main(String[] args) {
 		
-		GestionaEquipo f = new GestionaEquipo();
-		
-		Set<Equipo> listaEquipo = new HashSet<Equipo>();
-		
 		Alumno a1 = new Alumno("Pepito", "12234543");
 		Alumno a2 = new Alumno("Pepita", "57349586");
 		Alumno a3 = new Alumno("Pepote", "58796723");
+		Alumno a4 = new Alumno("Pepitote", "87534986");
+
+
+		Equipo e1 = new Equipo("Mandarinos");
+		Equipo e2 = new Equipo("Melocotoneros");
+
+		e1.aniadirAlumno(a1);
+		e1.aniadirAlumno(a3);
+		
+		e2.aniadirAlumno(a2);
+		e2.aniadirAlumno(a4);
+		
+		e1.mostrarEquipo();
+		e2.mostrarEquipo();
 
 		
-		
-		Equipo e1 = new Equipo("Mandarinos", listaEquipo);
-
 	}
 
 }

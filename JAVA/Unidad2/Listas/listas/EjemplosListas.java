@@ -13,7 +13,6 @@ public class EjemplosListas {
 		lista.add("Miguel");
 		lista.add("Antonio");
 		lista.add("Pedro");
-		lista.remove(2);
 		lista.remove("Pedro");
 		
 		for(String cadena : lista) {

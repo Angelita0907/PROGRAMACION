@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Refactoriza.Empleado"/>
-    <fullyQualifiedTypeName name="Refactoriza.Cliente"/>
-    <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio1.Pescado"/>
-    <fullyQualifiedTypeName name="modelo.Interfaces2Ejercicio1.Pescado.tipoPescado"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="excepciones.introductoria.GeneraExcepcion"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
@@ -36,7 +31,6 @@
     <fullyQualifiedTypeName name="modelo.SimulacroExamen3.Vuelo"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="modelo.SimulacroExamen3.EstadoVuelo"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="modelo.ExamenEjercicio1.MiembroEstandar"/>
     <fullyQualifiedTypeName name="modelo.ExamenEjercicio1.MiembroPremium"/>
     <fullyQualifiedTypeName name="modelo.ExamenEjercicio1.MiembroBase"/>
@@ -58,6 +52,12 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="listas.Boletin1Ejercicio3.Biblioteca"/>
+    <fullyQualifiedTypeName name="listas.Boletin1Ejercicio3.EstadoLibro"/>
     <fullyQualifiedTypeName name="listas.Boletin1Ejercicio3.BibliotecaException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="Repositorio.ListaProvincias"/>
+    <fullyQualifiedTypeName name="modelo.ProvinciaException"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="modelo.Provincia"/>
 </qualifiedTypeNameHistroy>

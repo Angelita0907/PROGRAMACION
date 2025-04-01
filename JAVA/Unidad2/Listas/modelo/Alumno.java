@@ -42,11 +42,9 @@ public class Alumno {
 		return Objects.equals(dni, other.dni) && Objects.equals(nombre, other.nombre);
 	}
 	
+	
 	@Override
 	public String toString() {
-		return "Alumno [nombre=" + nombre + ", dni=" + dni + "]";
+		return "Alumno: nombre=" + nombre + ", dni=" + dni;
 	}
-	
-	
-
 }

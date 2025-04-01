@@ -2,7 +2,7 @@ package modelo;
 
 import java.util.Objects;
 
-public class Provincia {
+public class Provincia implements Comparable<Provincia> {
 	
 	private String nombre;
 	private int poblacion;
@@ -46,11 +46,18 @@ public class Provincia {
 		return Objects.equals(nombre, other.nombre);
 	}
 
+	
+	
 	@Override
 	public String toString() {
 		return "Provincia [nombre=" + nombre + ", poblacion=" + poblacion + "]";
 	}
-	
-	
+
+	@Override
+	public int compareTo(Provincia p) {
+		int resultadoComparar = this.nombre.compareTo(p.getNombre());
+		
+		return resultadoComparar;
+	}
 
 }
