@@ -3,6 +3,7 @@ package controlador;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 import Repositorio.ListaProvincias;
 import modelo.Provincia;
@@ -14,18 +15,20 @@ public class GestionaProvincias {
 		Set<Provincia> lista = new HashSet<Provincia>();
 	
 	// se puede crear aparte y luego asignar la varibale o directamente
-		lista.add(new Provincia("Sevilla", 195000));
-		lista.add(new Provincia("Cádiz", 210000));
-		lista.add(new Provincia("Huelva", 200000));
-		lista.add(new Provincia("Cádiz", 89000));
+		Provincia p1 = new Provincia("Sevilla", 195000);
+		Provincia p2 = new  Provincia("Cádiz", 210000);
+		Provincia p3 = new  Provincia("Huelva", 20000);
+		Provincia p4 = new  Provincia("Cádiz", 89000);
 		
-		System.out.println("Lista final: ");
-		for(Provincia p : lista) {
-			System.out.println(p);
-		}
-	
-	Collections.sort(lista);
+		Set<Provincia> provincias = new TreeSet<Provincia>();
 		
+		provincias.add(p1);
+		provincias.add(p3);
+		
+		System.out.println(provincias);
+		
+		provincias.add(p2);
+		System.out.println(provincias);
 	
 	}
 

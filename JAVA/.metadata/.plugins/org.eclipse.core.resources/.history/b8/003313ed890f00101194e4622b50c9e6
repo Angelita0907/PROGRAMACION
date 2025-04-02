@@ -1,0 +1,61 @@
+package modelo;
+
+import java.util.HashSet;
+
+public class ReservaAnimal implements Comparable<Animales>{
+	
+	private String nombre;
+	private String lugar;
+	private int presupuestoAnual;
+	private HashSet<Animales> listaAnimales;
+	
+	public ReservaAnimal(String nombre, String lugar, int presupuestoAnual) {
+		super();
+		this.nombre = nombre;
+		this.lugar = lugar;
+		this.presupuestoAnual = presupuestoAnual;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getLugar() {
+		return lugar;
+	}
+
+	public void setLugar(String lugar) {
+		this.lugar = lugar;
+	}
+
+	public int getPresupuestoAnual() {
+		return presupuestoAnual;
+	}
+
+	public void setPresupuestoAnual(int presupuestoAnual) {
+		this.presupuestoAnual = presupuestoAnual;
+	}
+
+	public HashSet<Animales> getListaAnimales() {
+		return listaAnimales;
+	}
+
+	public void setListaAnimales(HashSet<Animales> listaAnimales) {
+		this.listaAnimales = listaAnimales;
+	}
+	
+	public void addAnimal(Animales a){
+		listaAnimales.add(a);
+	}
+
+	@Override
+	public int compareTo(Animales o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

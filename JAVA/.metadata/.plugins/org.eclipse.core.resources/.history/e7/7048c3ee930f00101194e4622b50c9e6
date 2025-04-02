@@ -1,0 +1,30 @@
+package controlador;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+import Repositorio.ListaProvincias;
+import modelo.Provincia;
+import modelo.ProvinciaException;
+
+public class GestionaProvincias {
+	
+	public static void main(String[] args) {
+		Set<Provincia> lista = new HashSet<Provincia>();
+	
+	// se puede crear aparte y luego asignar la varibale o directamente
+		Provincia p1 = new Provincia("Sevilla", 195000);
+		Provincia p2 = new  Provincia("Cádiz", 210000);
+		Provincia p3 = new  Provincia("Huelva", 20000);
+		Provincia p4 = new  Provincia("Cádiz", 89000);
+		
+		Set<Provincia> provincias = new TreeSet<Provincia>();
+		
+		provincias.add(p1);
+		
+	
+	}
+
+}

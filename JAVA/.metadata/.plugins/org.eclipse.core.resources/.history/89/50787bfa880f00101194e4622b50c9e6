@@ -1,0 +1,15 @@
+package modelo;
+
+public class Animales {
+
+	private int id;
+	private String nombre;
+	private String especie;
+	private int edad;
+	private Comida clasificacionComida;
+	private LocalDate fechaNacimiento;
+	private double peso;
+	private Medio medio;
+	private Gestacion clasificacionGestacion;
+	
+}

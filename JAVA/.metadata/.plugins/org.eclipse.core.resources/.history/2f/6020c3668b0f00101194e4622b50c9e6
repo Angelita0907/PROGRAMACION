@@ -1,0 +1,13 @@
+package controlador;
+
+import modelo.Animal2;
+
+public class GestionaReserva {
+
+	public static void main(String[] args) {
+		
+		Animal2 a1 = new Animal2(1, "Pepito");
+
+	}
+
+}
