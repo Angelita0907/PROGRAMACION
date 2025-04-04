@@ -10,7 +10,7 @@ public class Contacto implements Comparable<Contacto> {
 	private String direccion;
 	private String telefono;
 	
-	public Contacto(String nombre, String apellidos, String telefono) {
+	public Contacto(String nombre, String apellidos, int telefono) {
 		super();
 		this.nombre = nombre;
 		this.apellidos = apellidos;
@@ -78,8 +78,10 @@ public class Contacto implements Comparable<Contacto> {
 
 	@Override
 	public String toString() {
-		return "Contacto [nombre=" + nombre + ", apellidos=" + apellidos + ", telefono=" + telefono + "]";
+		return "Contacto [nombre=" + nombre + ", apellidos=" + apellidos + ", email=" + email + ", direccion="
+				+ direccion + ", telefono=" + telefono + "]";
 	}
+	
 
 	public int compareToNombre(Contacto otroContacto) {
 		int resultadoComparar = this.nombre.compareTo(otroContacto.getNombre());

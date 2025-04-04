@@ -1,0 +1,54 @@
+package modelo;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Agenda {
+	
+	private Set<Contacto> contactos;
+
+	public Agenda(Set<Contacto> contactos) {
+		super();
+		this.contactos = contactos;
+	}
+
+	public Set<Contacto> getContactos() {
+		return contactos;
+	}
+
+	public void setContactos(TreeSet<Contacto> contactos) {
+		this.contactos = new TreeSet<Contacto>();
+	}
+	
+	public void addContacto(Contacto c) {
+		contactos.add(c);
+	}
+	
+	public boolean delContacto(String nombre, String apellidos) {
+		boolean encontrado = false;
+		
+		Iterator<Contacto> it = contactos.iterator();
+		while (it.hasNext()) {
+			Contacto element = it.next();
+			System.out.println(element);
+		}
+		return encontrado;
+	}
+
+	public void mostrarContactos() {
+		System.out.println("Contactos: " +contactos.toString());
+	}
+	
+	public void buscarContacto(String nombre,String apellidos) {
+		for(Contacto contacto : contactos) {
+			if(contacto.getNombre().equals(nombre) && contacto.getApellidos().equals(apellidos)) {
+				System.out.println("Email: "+ contacto.getEmail());
+				System.out.println("Telefono: "+ contacto.getTelefono());
+			}
+		}
+	}
+	
+	
+	
+}
